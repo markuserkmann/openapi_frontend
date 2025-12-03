@@ -1,0 +1,10 @@
+:root {
+    --clr-pink: #ba4270;
+    --clr-pink-active: #da6d97;
+    --clr-link-water: #fbfcfe;
+    --clr-san-juan: #36536b;
+    --clr-light-san-juan: #6c8294;
+    --clr-bg: #edf3f8;
+    --ff-body: "Public Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --ff-heading: "DM Serif Display", "Times New Roman", serif;
+}
