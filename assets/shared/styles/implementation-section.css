@@ -1,0 +1,8 @@
+.implement-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.implement-flex__text {
+    align-content: center;
+}
