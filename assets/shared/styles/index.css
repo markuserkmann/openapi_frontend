@@ -344,3 +344,14 @@ nav a {
 .google {
   margin-left: 26px;
 }
+.finances {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 4rem;
+    padding: 4rem;
+    
+}
+.text{
+    color: #36536b;
+}
