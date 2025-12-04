@@ -23,9 +23,14 @@ body {
   overflow-x: hidden;
 }
 
+html, body {
+  background: var(--clr-bg);
+}
+
 .container {
   width: min(1110px, 100% - 48px);
   margin-inline: auto;
+
 }
 
 .btn {
@@ -131,11 +136,23 @@ filter: brightness(0) saturate(100%) invert(75%) sepia(17%) saturate(6299%) hue-
   align-content: center;
  
 }
+.bg-circle {
+  position: absolute; 
+  top: -260px;
+  right: -180px;
+  width: 900px;
+  height: 900px;
+  background: url("../desktop/bg-pattern-circle.svg") no-repeat center/contain;
+  pointer-events: none;     
+  z-index: 0; 
+
+}
 header {
   margin: 40px 165px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; 
+  z-index: 1;
 }
 div nav {
   display: flex;
@@ -152,18 +169,8 @@ nav a {
   position: relative;
   width: 100%;
   height: 900px;
-  background: var(--clr-bg);
   overflow: hidden;
-}
-.hero::before {
-  content: "";
-  position: absolute;
-  top: -260px;
-  right: -180px;
-  width: 780px;
-  height: 780px;
-  background: url("../desktop/bg-pattern-circle.svg") no-repeat center / contain;
-  pointer-events: none;
+  z-index: 2;
 }
 
 .hero_inner {
@@ -226,7 +233,7 @@ nav a {
   border-radius: 24px;
   color: var(--clr-link-water);
   text-align: left;
-  font-family: var(--ff-heading);
+  font-family: var(--ff-body);
   font-size: 15px;
   letter-spacing: -0.12px;
   font-weight: 700;
@@ -253,13 +260,13 @@ nav a {
 }
 
 .hero_image {
-  flex: 0 0 auto;
+  flex: auto auto auto;
   transform: translateX(4px);
   padding-top: 100px;
 }
 
 .hero_image img {
-  width: 350px;
+  width: 400px;
   height: auto;
 }
 
