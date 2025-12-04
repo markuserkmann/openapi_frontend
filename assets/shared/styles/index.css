@@ -56,3 +56,14 @@
     border: 1px solid var(--clr-link-water);
     box-shadow: none;
 }
+.finances {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 4rem;
+    padding: 4rem;
+    
+}
+.text{
+    color: #36536b;
+}
