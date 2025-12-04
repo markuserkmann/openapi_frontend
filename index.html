@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
-  <link rel="stylesheet" href="./assets/shared/styles/index.css" />
-  <title>Frontend Mentor | PayAPI Website Challenge</title>
-</head>
-
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./assets/shared/styles/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Public+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | PayAPI Website Challenge</title>
+  </head>
 <body>
   <header>
     <div>
@@ -58,6 +65,36 @@
       </div>
     </section>
 
+    <section class="partners" aria-labelledby="partners-title">
+      <div class="container partners_inner">
+        <div class="partners_content">
+          <h2 id="partners-title" class="partners_title">Who we work with</h2>
+          <p class="partners_text">
+            Today, millions of people around the world have successfully
+            connected their accounts to apps they love using our API. We provide
+            developers with the tools they need to create easy and accessible
+            experiences for their users.
+          </p>
+          <a href="#" class="btn btn--light">About Us</a>
+        </div>
+
+        <div class="partners_logos" aria-label="Partner companies">
+          <img src="./assets/shared/desktop/tesla.svg" alt="Tesla" />
+          <img src="./assets/shared/desktop/microsoft.svg" alt="Microsoft" />
+          <img
+            src="./assets/shared/desktop/hewlett-packard.svg"
+            alt="Hewlett Packard"
+          />
+          <img src="./assets/shared/desktop/oracle.svg" alt="Oracle" />
+          <img
+            class="google"
+            src="./assets/shared/desktop/google.svg"
+            alt="Google"
+          />
+          <img src="./assets/shared/desktop/nvidia.svg" alt="NVIDIA" />
+        </div>
+      </div>
+    </section>
 
     <section class="implement-flex">
       <div>
@@ -72,6 +109,8 @@
         </p>
       </div>
     </section>
+
+
 
 
     <footer class="site-footer">
@@ -96,7 +135,6 @@
       </div>
 
     </footer>
-
   </body>
 
 </html>
