@@ -11,9 +11,12 @@
       href="./assets/favicon-32x32.png"
     />
     <link rel="stylesheet" href="./assets/shared/styles/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Public+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Frontend Mentor | PayAPI Website Challenge</title>
   </head>
-
   <body>
      <div class="bg-circle"></div>
     <header>
@@ -34,6 +37,7 @@
       </div>
     </header>
 
+
     <section class="hero">
       <div class="container hero_inner">
         <div class="hero_content">
@@ -42,13 +46,7 @@
           </h1>
 
           <form class="hero_form" action="#" method="post">
-            <input
-              class="hero_input"
-              type="email"
-              name="email"
-              placeholder="Enter email address"
-              required
-            />
+            <input class="hero_input" type="email" name="email" placeholder="Enter email address" required />
             <button type="submit" class="btn btn--primary hero_btn">
               Schedule a Demo
             </button>
@@ -61,21 +59,45 @@
         </div>
 
         <div class="hero_image" aria-hidden="true">
-          <img
-            src="./assets/home/desktop/illustration-phone-mockup.svg"
-            alt="Phone mockup"
-          />
+          <img src="./assets/home/desktop/illustration-phone-mockup.svg" alt="Phone mockup" />
         </div>
       </div>
     </section>
 
+    <section class="partners" aria-labelledby="partners-title">
+      <div class="container partners_inner">
+        <div class="partners_content">
+          <h2 id="partners-title" class="partners_title">Who we work with</h2>
+          <p class="partners_text">
+            Today, millions of people around the world have successfully
+            connected their accounts to apps they love using our API. We provide
+            developers with the tools they need to create easy and accessible
+            experiences for their users.
+          </p>
+          <a href="#" class="btn btn--light">About Us</a>
+        </div>
+
+        <div class="partners_logos" aria-label="Partner companies">
+          <img src="./assets/shared/desktop/tesla.svg" alt="Tesla" />
+          <img src="./assets/shared/desktop/microsoft.svg" alt="Microsoft" />
+          <img
+            src="./assets/shared/desktop/hewlett-packard.svg"
+            alt="Hewlett Packard"
+          />
+          <img src="./assets/shared/desktop/oracle.svg" alt="Oracle" />
+          <img
+            class="google"
+            src="./assets/shared/desktop/google.svg"
+            alt="Google"
+          />
+          <img src="./assets/shared/desktop/nvidia.svg" alt="NVIDIA" />
+        </div>
+      </div>
+    </section>
 
     <section class="implement-flex">
       <div>
-        <img
-          src="../openapi_frontend/assets/home/desktop/illustration-easy-to-implement.svg"
-          alt="illustration-code"
-        />
+        <img src="./assets/home/desktop/illustration-easy-to-implement.svg" alt="illustration-code" />
       </div>
       <div class="implement-flex__text">
         <h1>Easy to implement</h1>
@@ -87,8 +109,31 @@
       </div>
     </section>
 
-    <button class="btn btn--primary">Primary</button>
-    <button class="btn btn--light">Light</button>
-    <button class="btn btn--primary btn--block">Primary Block</button>
+
+
+
+    <footer class="site-footer">
+
+      <div>
+        <nav class="footer-nav">
+          <div>
+            <img src="assets/shared/desktop/logo.svg" alt="logo" class="logo-footer" />
+          </div>
+          <div>
+            <a href="pricing.html" class="footer-a">Pricing </a>
+            <a href="about.html" class="footer-a">About</a>
+            <a href="contact.html" class="footer-a">Contact</a>
+          </div>
+        </nav>
+      </div>
+      <div class="footer-social">
+        <img src="./assets/shared/desktop/facebook.svg" alt="facebook">
+        <img src="./assets/shared/desktop/twitter.svg" alt="twitter">
+        <img src="./assets/shared/desktop/linkedin.svg" alt="linkedin">
+      </div>
+      </div>
+
+    </footer>
   </body>
+
 </html>
