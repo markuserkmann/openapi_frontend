@@ -13,44 +13,40 @@
     <link rel="stylesheet" href="./assets/shared/styles/index.css" />
     <title>Frontend Mentor | PayAPI Website Challenge</title>
   </head>
-
   <body>
-    <header>
-      <div>
-        <nav>
-          <div>
-            <img src="assets/shared/desktop/logo.svg" alt="logo" />
-          </div>
-          <div>
-            <a href="pricing.html">Pricing</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-          </div>
-        </nav>
-      </div>
-      <div>
-        <button class="btn btn--primary">Shedule a Demo</button>
-      </div>
-    </header>
-    <section class="implement-flex">
-      <div>
-        <img
-          src="../openapi_frontend/assets/home/desktop/illustration-easy-to-implement.svg"
-          alt="illustration-code"
-        />
-      </div>
-      <div class="implement-flex__text">
-        <h1>Easy to implement</h1>
-        <p>
-          Our API comes with just a few lines of code. You'll be up and running
-          in no time. We built our documentation page to integrate payments
-          functionality with ease.
-        </p>
+    <section class="hero">
+      <div class="container hero_inner">
+        <div class="hero_content">
+          <h1 class="hero_title">
+            Start building with our APIs for absolutely free.
+          </h1>
+
+          <form class="hero_form" action="#" method="post">
+            <input
+              class="hero_input"
+              type="email"
+              name="email"
+              placeholder="Enter email address"
+              required
+            />
+            <button type="submit" class="btn btn--primary hero_btn">
+              Schedule a Demo
+            </button>
+          </form>
+
+          <p class="hero_contact">
+            Have any questions?
+            <a>Contact Us</a>
+          </p>
+        </div>
+
+        <div class="hero_image" aria-hidden="true">
+          <img
+            src="./assets/home/desktop/illustration-phone-mockup.svg"
+            alt="Phone mockup"
+          />
+        </div>
       </div>
     </section>
-
-    <button class="btn btn--primary">Primary</button>
-    <button class="btn btn--light">Light</button>
-    <button class="btn btn--primary btn--block">Primary Block</button>
   </body>
 </html>
