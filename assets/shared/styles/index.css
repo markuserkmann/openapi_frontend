@@ -63,11 +63,64 @@ body {
 }
 
 .btn--light:hover {
-  background-color: #ffffff;
-  color: var(--clr-black);
-  border: 1px solid var(--clr-link-water);
-  box-shadow: none;
+    background-color: #ffffff;
+    color: var(--clr-black);
+    border: 1px solid var(--clr-link-water);
+    box-shadow: none;
 }
+
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#1b262f ;
+  padding: 20px;
+
+}
+
+.footer-nav {
+  display: flex;
+  align-items: center;
+  margin-left: 164px;
+
+
+}
+
+.footer-nav a:hover {
+ color:#ffffff;
+   cursor: pointer;
+}
+
+
+
+.logo-footer{
+filter: brightness(0) saturate(100%) invert(96%) sepia(100%) saturate(12%) hue-rotate(237deg) brightness(103%) contrast(103%);
+}
+
+ 
+.footer-a{
+  text-decoration: none;
+color:var(--clr-light-san-juan);
+ margin-left: 35px;
+
+}
+
+.footer-social img {
+   width: 22px;
+   margin-left: 25px;
+   transition: opacity 0.2s;
+}
+.footer-social{
+    margin-right: 164px;
+}
+
+.footer-social img:hover {
+cursor: pointer;
+filter: brightness(0) saturate(100%) invert(75%) sepia(17%) saturate(6299%) hue-rotate(295deg) brightness(89%) contrast(91%);
+}
+
 
 .implement-flex {
   display: flex;
@@ -76,10 +129,7 @@ body {
 
 .implement-flex__text {
   align-content: center;
-  background-color: #ffffff;
-  color: var(--clr-black);
-  border: 1px solid var(--clr-link-water);
-  box-shadow: none;
+ 
 }
 header {
   margin: 40px 165px;
