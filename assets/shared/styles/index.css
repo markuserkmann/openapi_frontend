@@ -50,6 +50,20 @@
 }
 
 .btn--light:hover {
+    background-color: #ffffff;
+    color: var(--clr-black);
+    border: 1px solid var(--clr-link-water);
+    box-shadow: none;
+}
+
+.implement-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.implement-flex__text {
+    align-content: center;
+}
   background-color: #ffffff;
   color: var(--clr-black);
   border: 1px solid var(--clr-link-water);
