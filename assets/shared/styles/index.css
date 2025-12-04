@@ -1,53 +1,52 @@
 :root {
-    --clr-pink: #ba4270;
-    --clr-pink-active: #da6d97;
-    --clr-link-water: #fbfcfe;
-    --clr-san-juan: #36536b;
-    --clr-light-san-juan: #6c8294;
-    --clr-bg: #edf3f8;
-    --ff-body: "Public Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    --ff-heading: "DM Serif Display", "Times New Roman", serif;
+  --clr-pink: #ba4270;
+  --clr-pink-active: #da6d97;
+  --clr-link-water: #fbfcfe;
+  --clr-san-juan: #36536b;
+  --clr-light-san-juan: #6c8294;
+  --clr-bg: #edf3f8;
+  --ff-body: "Public Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  --ff-heading: "DM Serif Display", "Times New Roman", serif;
 }
 
-
 .container {
-    width: min(1110px, 100% - 48px);
-    margin-inline: auto;
+  width: min(1110px, 100% - 48px);
+  margin-inline: auto;
 }
 
 .btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    height: 48px;
-    padding-inline: 28px;
-    border-radius: 24px;
-    border: none;
-    cursor: pointer;
-    font-size: 15px;
-    font-weight: 700;
-    letter-spacing: -0.12px;
-    white-space: nowrap;
-    transition: background-color 0.15s ease, color 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  padding-inline: 28px;
+  border-radius: 24px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: -0.12px;
+  white-space: nowrap;
+  transition: background-color 0.15s ease, color 0.15s ease;
 }
 
 .btn--primary {
-    background-color: var(--clr-pink);
-    color: var(--clr-link-water);
-    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25),
-        -10px -10px 25px -10px rgba(0, 0, 0, 0.5);
+  background-color: var(--clr-pink);
+  color: var(--clr-link-water);
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25),
+    -10px -10px 25px -10px rgba(0, 0, 0, 0.5);
 }
 
 .btn--primary:hover {
-    background-color: var(--clr-pink-active);
+  background-color: var(--clr-pink-active);
 }
 
-
 .btn--light {
-    background-color: transparent;
-    color: #fbfcfe;
-    border: 1px solid #fbfcfe;
-    box-shadow: none;
+  background-color: transparent;
+  color: #fbfcfe;
+  border: 1px solid #fbfcfe;
+  box-shadow: none;
 }
 
 .btn--light:hover {
@@ -64,4 +63,25 @@
 
 .implement-flex__text {
     align-content: center;
+}
+  background-color: #ffffff;
+  color: var(--clr-black);
+  border: 1px solid var(--clr-link-water);
+  box-shadow: none;
+}
+header {
+    margin: 40px 165px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--clr-san-juan);
+  margin-left: 1rem;
 }
