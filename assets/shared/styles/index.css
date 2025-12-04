@@ -56,3 +56,12 @@
     border: 1px solid var(--clr-link-water);
     box-shadow: none;
 }
+
+.implement-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.implement-flex__text {
+    align-content: center;
+}
