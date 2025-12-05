@@ -427,6 +427,21 @@ div.margin {
     line-height: 76px;
   }
 
+  .plan-card {
+    flex: 1 1 0;
+    max-width: 360px;
+  }
+
+  .plan-card__name {
+    font-size: 34px;
+    line-height: 42px;
+  }
+
+  .plan-card__price {
+    font-size: 60px;
+    line-height: 76px;
+  }
+
   .cta {
     margin-top: 120px;
   }
@@ -662,4 +677,3 @@ div.margin {
   pointer-events: none;     
   z-index: 0;
 }
-
