@@ -162,7 +162,13 @@ div nav {
 nav a {
   text-decoration: none;
   color: var(--clr-san-juan);
-  margin-left: 1rem;
+  margin-left: 40px;
+}
+nav a:hover{
+ font-weight: bold;
+}
+div.margin{
+  margin-right: 24px;
 }
 
 .hero {
