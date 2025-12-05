@@ -506,7 +506,7 @@ div.margin {
   top: 9px;
   width: 12px;
   height: 9px;
-  background: url("./desktop/icon-check.svg") no-repeat center/contain;
+  background: url("../desktop/icon-check.svg") no-repeat center/contain;
 }
 
 .plan-card__feature--muted {
