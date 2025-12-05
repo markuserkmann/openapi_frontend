@@ -616,6 +616,8 @@ div.margin {
   box-sizing: border-box;
   align-items: center;
   height: 630px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .feature-card_title {
@@ -625,8 +627,8 @@ div.margin {
   line-height: 56px;
   letter-spacing: -0.37px;
   font-weight: 400;
-  bottom: 495px;
-  left: 100px;
+  bottom: 374px;
+  left: 198px;
   position: relative;
   margin: 0;
 }
@@ -638,16 +640,15 @@ div.margin {
   line-height: 28px;
   font-weight: 400;
   position: relative;
-  bottom: 562px;
-  left: 168px;
+  bottom: 388px;
+  left: 200px;
 }
 
 .feature-card_icon { 
-  width: 700px;
+  width: 670px;
   height: auto; 
-  left: 780px;
-  top: 15px;
-  margin-bottom: 0px;  
+  left: 910px;
+  top: 30px;
   position: relative;
 }
 
@@ -655,8 +656,8 @@ div.margin {
   position: absolute; 
   top: 1850px;
   right: -500px;
-  width: 900px;
-  height: 900px;
+  width: 800px;
+  height: 800px;
   background: url("../desktop/bg-pattern-circle.svg") no-repeat center/contain;
   pointer-events: none;     
   z-index: 0;
