@@ -63,12 +63,14 @@
 
 .implement-flex__text {
     align-content: center;
+    margin-right: 16.25rem;
+    margin-left: 7.81rem;
 }
-  background-color: #ffffff;
-  color: var(--clr-black);
-  border: 1px solid var(--clr-link-water);
-  box-shadow: none;
+
+.implement-image__margin {
+  margin-left: 10.31rem;
 }
+
 header {
     margin: 40px 165px;
   display: flex;
