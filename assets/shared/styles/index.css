@@ -366,8 +366,7 @@ div.margin {
   display: flex;
   justify-content: center;
   text-align: center;
-  gap: 4rem;
-  padding: 4rem;
+  margin: 0 10.31rem;
 }
 .text {
   color: #36536b;
@@ -545,14 +544,12 @@ div.margin {
   margin-top: 25px;
 }
 
-.cta {
-  margin-top: 96px;
-}
 
 .cta__inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 6rem 10.31rem;
 }
 
 .cta__title {
@@ -630,9 +627,10 @@ div.margin {
   line-height: 56px;
   letter-spacing: -0.37px;
   font-weight: 400;
-  bottom: 520px;
+  bottom: 374px;
   left: 198px;
   position: relative;
+  margin: 0;
 }
 
 .feature-card_text {
@@ -642,7 +640,7 @@ div.margin {
   line-height: 28px;
   font-weight: 400;
   position: relative;
-  bottom: 562px;
+  bottom: 388px;
   left: 200px;
 }
 
@@ -664,3 +662,4 @@ div.margin {
   pointer-events: none;     
   z-index: 0;
 }
+
