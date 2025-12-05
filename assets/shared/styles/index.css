@@ -198,7 +198,7 @@ div.margin {
 
 .hero_title {
   position: absolute;
-  top: 237px;
+  top: 180px;
   left: 165px;
   font-family: var(--ff-heading);
   font-size: 72px;
@@ -210,7 +210,7 @@ div.margin {
 
 .hero_form {
   position: absolute;
-  top: 528px;
+  top: 475px;
   left: 165px;
   display: flex;
   align-items: center;
@@ -256,18 +256,19 @@ div.margin {
 
 .hero_contact {
   position: absolute;
-  top: 568px;
+  top: 520px;
   left: 165px;
   font-size: 14px;
   color: var(--clr-light-san-juan);
   padding-left: 27px;
 }
 
-.hero_contact a {
+.hero_contact a:hover {
   font-weight: 700;
   text-decoration: underline;
-  color: var(--clr-light-san-juan);
+  color: var(--clr-san-juan);
   text-decoration: none;
+  cursor: pointer;
 }
 
 .hero_image {
@@ -602,5 +603,63 @@ div.margin {
   height: 900px;
   background: url("../desktop/bg-pattern-circle.svg") no-repeat center/contain;
   pointer-events: none;
+  z-index: 0;
+}
+.text{
+    color: #36536b;
+}
+
+/** Easy to Implement ***/
+
+.feature-card {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  box-sizing: border-box;
+  align-items: center;
+  height: 630px;
+}
+
+.feature-card_title {
+  color: var(--clr-san-juan);
+  font-family: var(--ff-heading);
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.37px;
+  font-weight: 400;
+  bottom: 495px;
+  left: 100px;
+  position: relative;
+}
+
+.feature-card_text {
+  color: var(--clr-san-juan);
+  font-family: var(--ff-body);
+  font-size: 15px;
+  line-height: 28px;
+  font-weight: 400;
+  position: relative;
+  bottom: 562px;
+  left: 168px;
+}
+
+.feature-card_icon { 
+  width: 700px;
+  height: auto; 
+  left: 780px;
+  top: 15px;
+  margin-bottom: 0px;  
+  position: relative;
+}
+
+.feature-card_bg-circle{
+  position: absolute; 
+  top: 1850px;
+  right: -500px;
+  width: 900px;
+  height: 900px;
+  background: url("../desktop/bg-pattern-circle.svg") no-repeat center/contain;
+  pointer-events: none;     
   z-index: 0;
 }
