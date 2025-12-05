@@ -374,23 +374,29 @@ div.margin{
     display: flex;
     justify-content: center;
     text-align: center;
-    gap: 4rem;
-    padding: 4rem;
+    gap: 1.88rem;
+    margin-left: 10.31rem;
+    margin-right: 10.31rem;
     
 }
 .text{
     color: #36536b;
+    margin: 0 1.88;
 }
 
 
 .cta {
-  margin-top: 96px;
+  margin-top: 6rem;
+
 }
 
 .cta__inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-left: 10.31rem;
+  margin-right: 10.31rem;
+  margin-bottom: 6rem;
 }
 
 .cta__title {
