@@ -23,14 +23,14 @@ body {
   overflow-x: hidden;
 }
 
-html, body {
+html,
+body {
   background: var(--clr-bg);
 }
 
 .container {
-  width: min(1110px, 100% - 48px);
+  width: min(1185px, 100% - 48px);
   margin-inline: auto;
-
 }
 
 .btn {
@@ -68,10 +68,10 @@ html, body {
 }
 
 .btn--light:hover {
-    background-color: #ffffff;
-    color: var(--clr-black);
-    border: 1px solid var(--clr-link-water);
-    box-shadow: none;
+  background-color: #ffffff;
+  color: var(--clr-black);
+  border: 1px solid var(--clr-link-water);
+  box-shadow: none;
 }
 
 
@@ -93,52 +93,46 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color:#1b262f ;
+  background-color: #1b262f;
   padding: 20px;
-
 }
 
 .footer-nav {
   display: flex;
   align-items: center;
   margin-left: 164px;
-
-
 }
 
 .footer-nav a:hover {
- color:#ffffff;
-   cursor: pointer;
+  color: #ffffff;
+  cursor: pointer;
 }
 
-
-
-.logo-footer{
-filter: brightness(0) saturate(100%) invert(96%) sepia(100%) saturate(12%) hue-rotate(237deg) brightness(103%) contrast(103%);
+.logo-footer {
+  filter: brightness(0) saturate(100%) invert(96%) sepia(100%) saturate(12%)
+    hue-rotate(237deg) brightness(103%) contrast(103%);
 }
 
- 
-.footer-a{
+.footer-a {
   text-decoration: none;
-color:var(--clr-light-san-juan);
- margin-left: 35px;
-
+  color: var(--clr-light-san-juan);
+  margin-left: 35px;
 }
 
 .footer-social img {
-   width: 22px;
-   margin-left: 25px;
-   transition: opacity 0.2s;
+  width: 22px;
+  margin-left: 25px;
+  transition: opacity 0.2s;
 }
-.footer-social{
-    margin-right: 164px;
+.footer-social {
+  margin-right: 164px;
 }
 
 .footer-social img:hover {
-cursor: pointer;
-filter: brightness(0) saturate(100%) invert(75%) sepia(17%) saturate(6299%) hue-rotate(295deg) brightness(89%) contrast(91%);
+  cursor: pointer;
+  filter: brightness(0) saturate(100%) invert(75%) sepia(17%) saturate(6299%)
+    hue-rotate(295deg) brightness(89%) contrast(91%);
 }
-
 
 .implement-flex {
   display: flex;
@@ -147,24 +141,22 @@ filter: brightness(0) saturate(100%) invert(75%) sepia(17%) saturate(6299%) hue-
 
 .implement-flex__text {
   align-content: center;
- 
 }
 .bg-circle {
-  position: absolute; 
+  position: absolute;
   top: -260px;
   right: -180px;
   width: 900px;
   height: 900px;
   background: url("../desktop/bg-pattern-circle.svg") no-repeat center/contain;
-  pointer-events: none;     
-  z-index: 0; 
-
+  pointer-events: none;
+  z-index: 0;
 }
 header {
   margin: 40px 165px;
   display: flex;
   justify-content: space-between;
-  align-items: center; 
+  align-items: center;
   z-index: 1;
 }
 div nav {
@@ -177,10 +169,10 @@ nav a {
   color: var(--clr-san-juan);
   margin-left: 40px;
 }
-nav a:hover{
- font-weight: bold;
+nav a:hover {
+  font-weight: bold;
 }
-div.margin{
+div.margin {
   margin-right: 24px;
 }
 
@@ -206,7 +198,7 @@ div.margin{
 
 .hero_title {
   position: absolute;
-  top: 237px;
+  top: 180px;
   left: 165px;
   font-family: var(--ff-heading);
   font-size: 72px;
@@ -218,7 +210,7 @@ div.margin{
 
 .hero_form {
   position: absolute;
-  top: 528px;
+  top: 475px;
   left: 165px;
   display: flex;
   align-items: center;
@@ -264,18 +256,19 @@ div.margin{
 
 .hero_contact {
   position: absolute;
-  top: 568px;
+  top: 520px;
   left: 165px;
   font-size: 14px;
   color: var(--clr-light-san-juan);
   padding-left: 27px;
 }
 
-.hero_contact a {
+.hero_contact a:hover {
   font-weight: 700;
   text-decoration: underline;
-  color: var(--clr-light-san-juan);
+  color: var(--clr-san-juan);
   text-decoration: none;
+  cursor: pointer;
 }
 
 .hero_image {
@@ -299,7 +292,6 @@ div.margin{
     margin-inline: auto;
   }
 }
-
 
 /*** Partners ***/
 
@@ -371,32 +363,193 @@ div.margin{
   margin-left: 26px;
 }
 .finances {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    gap: 1.88rem;
-    margin-left: 10.31rem;
-    margin-right: 10.31rem;
-    
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0 10.31rem;
 }
-.text{
-    color: #36536b;
-    margin: 0 1.88;
+.text {
+  color: #36536b;
 }
 
-
-.cta {
-  margin-top: 6rem;
-
+.pricing-page {
+  position: relative;
+  padding-bottom: 120px;
 }
+
+.pricing-section__title {
+  font-family: var(--ff-heading);
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -0.43px;
+  font-weight: 400;
+  color: var(--clr-san-juan);
+  margin: 0 0 128px;
+}
+
+.pricing-section__grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+@media (min-width: 769px) {
+  .pricing-page .container {
+    width: min(1185px, 100% - 96px);
+  }
+
+  .pricing-section {
+    padding-top: 85px;
+  }
+
+  .pricing-section__title {
+    font-size: 64px;
+    line-height: 64px;
+    margin-bottom: 96px;
+  }
+
+  .pricing-section__grid {
+    gap: 40px;
+  }
+
+  .plan-card {
+    flex: 1 1 0;
+    max-width: 360px;
+  }
+
+  .plan-card__name {
+    font-size: 34px;
+    line-height: 42px;
+  }
+
+  .plan-card__price {
+    font-size: 60px;
+    line-height: 76px;
+  }
+
+  .cta {
+    margin-top: 120px;
+  }
+
+  .cta__inner {
+    gap: 40px;
+  }
+
+  .cta__title {
+    font-size: 52px;
+    line-height: 60px;
+  }
+
+  .cta__form {
+    width: 520px;
+    height: 52px;
+  }
+
+  .cta__input {
+    height: 52px;
+    font-size: 16px;
+  }
+
+  .cta__btn {
+    left: 360px;
+    height: 52px;
+  }
+
+  .bg-circle__pricing {
+    right: -140px;
+    width: 900px;
+    height: 1000px;
+  }
+}
+
+.plan-card {
+  width: 350px;
+}
+
+.plan-card__name {
+  font-family: var(--ff-heading);
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.25px;
+  font-weight: 400;
+  color: var(--clr-pink);
+  margin: 0 0 16px;
+}
+
+.plan-card__desc {
+  font-size: 15px;
+  line-height: 28px;
+  color: var(--clr-light-san-juan);
+  margin: 0 0 24px;
+}
+
+.plan-card__price {
+  font-family: var(--ff-heading);
+  font-size: 56px;
+  line-height: 72px;
+  letter-spacing: -0.43px;
+  font-weight: 400;
+  color: var(--clr-san-juan);
+  margin: 0;
+}
+
+.plan-card__divider {
+  height: 1px;
+  background-color: var(--clr-san-juan);
+  opacity: 0.25;
+  margin: 24px 0;
+}
+
+.plan-card__features {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.plan-card__feature {
+  position: relative;
+  padding-left: 32px;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--clr-san-juan);
+}
+
+.plan-card__feature--active::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 12px;
+  height: 9px;
+  background: url("./desktop/icon-check.svg") no-repeat center/contain;
+}
+
+.plan-card__feature--muted {
+  opacity: 0.5;
+}
+
+.btn--outline {
+  background-color: transparent;
+  color: var(--clr-san-juan);
+  border: 1px solid var(--clr-san-juan);
+  box-shadow: none;
+}
+
+.btn--outline:hover {
+  background-color: var(--clr-san-juan);
+  color: var(--clr-link-water);
+}
+
+.plan-card__btn {
+  margin-top: 25px;
+}
+
 
 .cta__inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 10.31rem;
-  margin-right: 10.31rem;
-  margin-bottom: 6rem;
+  margin: 6rem 10.31rem;
 }
 
 .cta__title {
@@ -438,3 +591,74 @@ div.margin{
   top: 0;
   left: 295px;
 }
+
+.bg-circle__pricing {
+  position: absolute;
+  top: -700px;
+  right: -180px;
+  width: 800px;
+  height: 900px;
+  background: url("../desktop/bg-pattern-circle.svg") no-repeat center/contain;
+  pointer-events: none;
+  z-index: 0;
+}
+.text{
+    color: #36536b;
+}
+
+/** Easy to Implement ***/
+
+.feature-card {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  box-sizing: border-box;
+  align-items: center;
+  height: 630px;
+}
+
+.feature-card_title {
+  color: var(--clr-san-juan);
+  font-family: var(--ff-heading);
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.37px;
+  font-weight: 400;
+  bottom: 495px;
+  left: 100px;
+  position: relative;
+  margin: 0;
+}
+
+.feature-card_text {
+  color: var(--clr-san-juan);
+  font-family: var(--ff-body);
+  font-size: 15px;
+  line-height: 28px;
+  font-weight: 400;
+  position: relative;
+  bottom: 562px;
+  left: 168px;
+}
+
+.feature-card_icon { 
+  width: 700px;
+  height: auto; 
+  left: 780px;
+  top: 15px;
+  margin-bottom: 0px;  
+  position: relative;
+}
+
+.feature-card_bg-circle{
+  position: absolute; 
+  top: 1850px;
+  right: -500px;
+  width: 900px;
+  height: 900px;
+  background: url("../desktop/bg-pattern-circle.svg") no-repeat center/contain;
+  pointer-events: none;     
+  z-index: 0;
+}
+
