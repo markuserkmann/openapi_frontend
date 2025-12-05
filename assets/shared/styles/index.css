@@ -515,28 +515,36 @@ div.margin {
   margin: 24px 0;
 }
 
+
 .plan-card__features {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .plan-card__feature {
-  position: relative;
-  padding-left: 32px;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
   font-size: 16px;
   line-height: 28px;
   color: var(--clr-san-juan);
 }
 
-.plan-card__feature--active::before {
+.plan-card__feature::before {
   content: "";
-  position: absolute;
-  left: 0;
-  top: 9px;
   width: 12px;
   height: 9px;
-  background: url("./desktop/icon-check.svg") no-repeat center/contain;
+  margin-top: 9px;
+  flex: 0 0 12px;
+  background: none;
+}
+
+.plan-card__feature--active::before {
+  background: url("../desktop/icon-check.svg") no-repeat center/contain;
 }
 
 .plan-card__feature--muted {
