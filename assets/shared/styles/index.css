@@ -685,3 +685,129 @@ div.margin {
   pointer-events: none;     
   z-index: 0;
 }
+
+body {
+  margin: 0;
+  background: var(--clr-bg);
+  color: var(--clr-san-juan);
+  font-family: var(--ff-body);
+  overflow-x: hidden;
+}
+
+.container-1440 {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+  padding-top: 120px;
+  position: relative;
+}
+
+.hero-place {
+  font-family: var(--ff-heading);
+  font-size: 48px;
+  line-height: 56px;
+  margin-bottom: 80px;
+  max-width: 620px;
+}
+
+.two-col-grid {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  row-gap: 60px;
+  margin-bottom: 100px;
+}
+
+.info-title {
+  font-family: var(--ff-heading);
+  font-size: 32px;
+  color: var(--clr-san-juan);
+  margin-top: 11px;
+}
+
+.info-text {
+  font-size: 15px;
+  line-height: 28px;
+  max-width: 640px;
+  color: var(--clr-san-juan);
+}
+
+.team-photo {
+  width: 100vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  margin-bottom: 100px;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin: 80px 0;
+}
+
+.stat-col {
+  border-top: 1px solid #c8d1da;
+  border-bottom: 1px solid #c8d1da;
+  padding: 0px 0;
+}
+
+.stat-title {
+  font-size: 16px;
+  color: var(--clr-light-san-juan);
+  margin-bottom: 2px;
+}
+
+.stat-value {
+  font-family: var(--ff-heading);
+  font-size: 56px;
+  line-height: 1;
+  color: var(--clr-pink);
+  margin-top: 15px;
+}
+
+.cta-block {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto 160px auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 150px;
+}
+
+.cta-title {
+  font-family: var(--ff-heading);
+  font-size: 48px;
+  white-space: nowrap;
+}
+
+.cta-form {
+  display: inline-flex;
+  align-items: center;
+  background: white;
+  border-radius: 30px;
+  overflow: hidden;
+  height: 48px;
+  box-shadow: 10px 10px 25px -10px #36536b40;
+}
+
+.cta-input {
+  border: none;
+  padding: 0 24px;
+  width: 320px;
+  height: 48px;
+  font-size: 15px;
+}
+
+.cta-button {
+  height: 48px;
+  padding: 0 32px;
+  background: var(--clr-pink);
+  color: white;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 999px;
+}
+
