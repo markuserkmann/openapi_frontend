@@ -764,16 +764,15 @@ body {
   line-height: 1;
   color: var(--clr-pink);
   margin-top: 15px;
+  margin-bottom: 16px;
 }
 
 .cta-block {
   width: 100%;
-  max-width: 1110px;
-  margin: 0 auto 160px auto;
+  margin: 0 0 165px 0;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  gap: 150px;
+  justify-content: space-between;
 }
 
 .cta-title {
@@ -811,3 +810,23 @@ body {
   border-radius: 999px;
 }
 
+.bg-circle-2 {
+  position: absolute;
+  top: -550px;
+  right: -280px;
+  width: 900px;
+  height: 900px;
+  background: url("../desktop/bg-pattern-circle.svg") no-repeat center/contain;
+  pointer-events: none;
+  z-index: 0;
+}
+.bg-circle-3 {
+  position: absolute;
+  top: 650px;
+  right: 1270px;
+  width: 1200px;
+  height: 1200px;
+  background: url("../desktop/bg-pattern-circle.svg") no-repeat center/contain;
+  pointer-events: none;
+  z-index:0;
+}
