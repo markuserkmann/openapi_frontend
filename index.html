@@ -18,7 +18,7 @@
     <title>Frontend Mentor | PayAPI Website Challenge</title>
   </head>
   <body>
-     <div class="bg-circle"></div>
+    <div class="bg-circle"></div>
     <header>
       <div>
         <nav>
@@ -37,7 +37,6 @@
       </div>
     </header>
 
-
     <section class="hero">
       <div class="container hero_inner">
         <div class="hero_content">
@@ -46,7 +45,13 @@
           </h1>
 
           <form class="hero_form" action="#" method="post">
-            <input class="hero_input" type="email" name="email" placeholder="Enter email address" required />
+            <input
+              class="hero_input"
+              type="email"
+              name="email"
+              placeholder="Enter email address"
+              required
+            />
             <button type="submit" class="btn btn--primary hero_btn">
               Schedule a Demo
             </button>
@@ -54,12 +59,15 @@
 
           <p class="hero_contact">
             Have any questions?
-            <a>Contact Us</a>
+            <a href="contact.html">Contact Us</a>
           </p>
         </div>
 
         <div class="hero_image" aria-hidden="true">
-          <img src="./assets/home/desktop/illustration-phone-mockup.svg" alt="Phone mockup" />
+          <img
+            src="./assets/home/desktop/illustration-phone-mockup.svg"
+            alt="Phone mockup"
+          />
         </div>
       </div>
     </section>
@@ -96,8 +104,11 @@
     </section>
 
     <section class="implement-flex">
-      <div>
-        <img src="./assets/home/desktop/illustration-easy-to-implement.svg" alt="illustration-code" />
+      <div class="implement-image__margin">
+        <img
+          src="./assets/home/desktop/illustration-easy-to-implement.svg"
+          alt="illustration-code"
+        />
       </div>
       <div class="implement-flex__text">
         <h1>Easy to implement</h1>
@@ -108,33 +119,103 @@
         </p>
       </div>
     </section>
-<section class="finances">
-    <div>
-    <img src="./assets/shared/desktop/icon-personal-finances.svg" alt="finance">
-    <h3>Personal Finances</h3>
-    <p class="text">Consolidate financial data from multiple sources and categorize transactions up to 2 years of history. Analyze
-      reports to reconcile activities in your account.</p>
-</div>
-<div>
-  <img src="./assets/shared/desktop/icon-banking-and-coverage.svg" alt="banking">
-  <h3>Banking & Coverage</h3>
-  <p class="text">With our platform you can speed up your account onboarding and support ongoing payments for checking,savings,credit card and brokerage accounts.</p>
-</div>
-<div>
-  <img src="./assets/shared/desktop/icon-consumer-payments.svg" alt="payments">
-  <h3>Consumer Payments</h3>
-  <p class="text">It`s easier to set up secure bank payments with us throught a flow designed with the user expierence in mind. Costumers could instantly authenticate their account.</p>
-</div>
-  </section>
 
 
+<section>
+<div class="feature-card">
+
+
+  <div>
+ <img 
+    class="feature-card_bg-circle" 
+    src="assets/shared/desktop/bg-pattern-circle.svg" 
+    alt="Background circle"
+  />
+
+  <img 
+    class="feature-card_icon"
+    src="./assets/home/desktop/illustration-simple-ui.svg" 
+    alt="Simple UI illustration"
+  />
+  </div>
+
+
+  <div>
+  <h3 class="feature-card_title">Simple UI & UX</h3>
+  <p class="feature-card_text">
+    Our pre-built form is easy to integrate in your app or website’s checkout
+    flow and designed to optimize conversion.
+  </p>
+</div>
+</section>
+
+
+    <section class="finances">
+      <div>
+        <img
+          src="./assets/shared/desktop/icon-personal-finances.svg"
+          alt="finance"
+        />
+        <h3>Personal Finances</h3>
+        <p class="text">
+          Consolidate financial data from multiple sources and categorize
+          transactions up to 2 years of history. Analyze reports to reconcile
+          activities in your account.
+        </p>
+      </div>
+      <div>
+        <img
+          src="./assets/shared/desktop/icon-banking-and-coverage.svg"
+          alt="banking"
+        />
+        <h3>Banking & Coverage</h3>
+        <p class="text">
+          With our platform you can speed up your account onboarding and support
+          ongoing payments for checking,savings,credit card and brokerage
+          accounts.
+        </p>
+      </div>
+      <div>
+        <img
+          src="./assets/shared/desktop/icon-consumer-payments.svg"
+          alt="payments"
+        />
+        <h3>Consumer Payments</h3>
+        <p class="text">
+          It`s easier to set up secure bank payments with us throught a flow
+          designed with the user expierence in mind. Costumers could instantly
+          authenticate their account.
+        </p>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="cta__inner">
+        <h2 class="cta__title">Ready to start?</h2>
+
+        <form class="cta__form" action="#" method="post">
+          <input
+            type="email"
+            class="cta__input"
+            placeholder="Enter email address"
+            required
+          />
+          <button type="submit" class="btn btn--primary cta__btn">
+            Schedule a Demo
+          </button>
+        </form>
+      </div>
+    </section>
 
     <footer class="site-footer">
-
       <div>
         <nav class="footer-nav">
           <div>
-            <img src="assets/shared/desktop/logo.svg" alt="logo" class="logo-footer" />
+            <img
+              src="assets/shared/desktop/logo.svg"
+              alt="logo"
+              class="logo-footer"
+            />
           </div>
           <div>
             <a href="pricing.html" class="footer-a">Pricing </a>
@@ -144,14 +225,10 @@
         </nav>
       </div>
       <div class="footer-social">
-        <img src="./assets/shared/desktop/facebook.svg" alt="facebook">
-        <img src="./assets/shared/desktop/twitter.svg" alt="twitter">
-        <img src="./assets/shared/desktop/linkedin.svg" alt="linkedin">
+        <img src="./assets/shared/desktop/facebook.svg" alt="facebook" />
+        <img src="./assets/shared/desktop/twitter.svg" alt="twitter" />
+        <img src="./assets/shared/desktop/linkedin.svg" alt="linkedin" />
       </div>
-      </div>
-
     </footer>
   </body>
-  
-
 </html>
