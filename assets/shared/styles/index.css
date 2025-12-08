@@ -197,7 +197,7 @@ div.margin {
 }
 
 .hero_title {
-  position: absolute;
+
   top: 180px;
   left: 165px;
   font-family: var(--ff-heading);
@@ -209,7 +209,7 @@ div.margin {
 }
 
 .hero_form {
-  position: absolute;
+
   top: 475px;
   left: 165px;
   display: flex;
@@ -237,7 +237,7 @@ div.margin {
 }
 
 .hero_btn {
-  position: absolute;
+
   right: 173px;
   height: 48px;
   padding-inline: 26px;
@@ -255,7 +255,7 @@ div.margin {
 }
 
 .hero_contact {
-  position: absolute;
+
   top: 520px;
   left: 165px;
   font-size: 14px;
@@ -272,15 +272,19 @@ div.margin {
 }
 
 .hero_image {
-  flex: auto auto auto;
-  transform: translateX(4px);
-  padding-top: 100px;
+  position: absolute;
+  right: 10%;
+  top: 10%;
+  transform: translateY(0%);
+  z-index: 1;
 }
 
 .hero_image img {
   width: 400px;
   height: auto;
+  display: block;
 }
+
 
 @media (max-width: 900px) {
   .hero_inner {
@@ -288,11 +292,21 @@ div.margin {
     text-align: center;
   }
 
+  .hero_content {
+    margin-left: 0;
+  }
+
   .hero_form {
     margin-inline: auto;
   }
-}
 
+  .hero_image {
+    position: relative;
+    right: auto;
+    top: auto;
+    transform: none;
+  }
+}
 /*** Partners ***/
 
 .partners {
@@ -652,6 +666,15 @@ div.margin {
   position: relative;
 }
 
+.feature-card_icon img { 
+  width: 10%;
+  height: auto; 
+  left: 10%;
+  top: 30px;
+  position: relative;
+}
+
+
 .feature-card_bg-circle{
   position: absolute; 
   top: 1850px;
@@ -661,5 +684,22 @@ div.margin {
   background: url("../desktop/bg-pattern-circle.svg") no-repeat center/contain;
   pointer-events: none;     
   z-index: 0;
+}
+
+@media (max-width: 900px) {
+  .feature-card {
+    flex-direction: column;
+    text-align: center;
+    gap: 48px;
+  }
+
+  .feature-card_bg-circle {
+    width: 560px;
+    height: 560px;
+  }
+
+  .feature-card_icon {
+    width: 350px;
+  }
 }
 
