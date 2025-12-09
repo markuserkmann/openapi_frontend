@@ -81,6 +81,14 @@ body {
     margin-left: 7.81rem;
 }
 
+.implement-heading {
+  font-family: var(--ff-heading);
+}
+
+.implement-p {
+  font-family: var(--ff-body);
+}
+
 .implement-image__margin {
   margin-left: 10.31rem;
 }
@@ -369,8 +377,13 @@ div.margin {
   text-align: center;
   margin: 0 10.31rem;
 }
-.text {
+.text-finances {
   color: #36536b;
+  font-family: var(--ff-body);
+}
+
+.heading-finances {
+  font-family: var(--ff-heading);
 }
 
 .pricing-page {
@@ -720,6 +733,7 @@ body {
   font-size: 56px;
 font-style: normal;
 font-weight: 400;
+font-family: var(--ff-heading);
 }
  
 .two-col-grid {
@@ -741,6 +755,7 @@ font-weight: 400;
   font-size: 32px;
   color: var(--clr-san-juan);
   margin-top: 11px;
+  font-family: var(--ff-heading);
  
 }
  
@@ -749,6 +764,7 @@ font-weight: 400;
   line-height: 28px;
   max-width: 640px;
   color: var(--clr-san-juan);
+  font-family: var(--ff-body);
 }
  
 .team-photo {
