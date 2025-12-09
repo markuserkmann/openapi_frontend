@@ -686,6 +686,8 @@ div.margin {
   z-index: 0;
 }
 
+/* ABOUT */
+
 body {
   margin: 0;
   background: var(--clr-bg);
@@ -704,14 +706,23 @@ body {
 
 .hero-place {
   font-family: var(--ff-heading);
-  font-size: 48px;
   line-height: 56px;
   margin-bottom: 80px;
   max-width: 620px;
+  font-size: 56px;
+font-style: normal;
+font-weight: 400;
 }
 
 .two-col-grid {
   display: grid;
+  grid-template-columns: 260px 1fr;
+  row-gap: 60px;
+  margin-bottom: 102px;
+}
+.two-col-grid-margin{
+  margin-top: -74px;
+   display: grid;
   grid-template-columns: 260px 1fr;
   row-gap: 60px;
   margin-bottom: 100px;
@@ -722,6 +733,7 @@ body {
   font-size: 32px;
   color: var(--clr-san-juan);
   margin-top: 11px;
+
 }
 
 .info-text {
@@ -737,6 +749,13 @@ body {
   transform: translateX(-50%);
   display: block;
   margin-bottom: 100px;
+}
+
+.stats-wrapper{
+ width: 100%;
+ max-width: 1440px;
+ margin: 100px auto;
+ padding: 0 165px; 
 }
 
 .stats {
@@ -765,6 +784,13 @@ body {
   color: var(--clr-pink);
   margin-top: 15px;
   margin-bottom: 16px;
+}
+
+.cta-wide {
+ width: 100%;
+ max-width: 1440px;
+ margin: 120px auto;
+ padding: 0 165px;
 }
 
 .cta-block {
