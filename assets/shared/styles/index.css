@@ -20,12 +20,12 @@ body {
   font-family: var(--ff-body);
   background-color: var(--clr-bg);
   color: var(--clr-san-juan);
-  overflow-x: hidden;
 }
 
 html,
 body {
   background: var(--clr-bg);
+  
 }
 
 .container {
@@ -89,6 +89,7 @@ header {
     margin: 40px 165px;
 }
 
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -145,12 +146,13 @@ footer {
 .bg-circle {
   position: absolute;
   top: -260px;
-  right: -180px;
-  width: 900px;
-  height: 900px;
-  background: url("../desktop/bg-pattern-circle.svg") no-repeat center/contain;
+  right: -25vw;
+  width: 75vw;
+  height: 75vh;
+  background: url("/assets/shared/desktop/bg-pattern-circle.svg") no-repeat center/contain;
   pointer-events: none;
   z-index: 0;
+  
 }
 header {
   margin: 40px 165px;
@@ -641,6 +643,8 @@ div.margin {
   justify-content:space-between;
   margin-left: 165px;
   margin-right: 173px;
+  
+  
 }
 
 .feature-card_title {
@@ -683,13 +687,18 @@ div.margin {
 
 .feature-card_bg-circle{
   position: absolute; 
-  top: 1850px;
-  right: -450px;
-  width: 800px;
-  height: 800px;
-  background: url("../desktop/bg-pattern-circle.svg") no-repeat center/contain;
+  top: 1750px;
+  right: -45vw;
+  width: 75vw;
+  height: 75vh;
+  background: url("/assets/shared/desktop/bg-pattern-circle.svg") no-repeat center/contain;
   pointer-events: none;     
   z-index: 0;
+  mask-clip: border-box;
+}
+.shell{
+  width: 100%;
+  
 }
 
 @media (max-width: 900px) {
