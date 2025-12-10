@@ -157,7 +157,7 @@ footer {
   right: -25vw;
   width: 75vw;
   height: 75vh;
-  background: url("/assets/shared/desktop/bg-pattern-circle.svg") no-repeat center/contain;
+  background: url("./assets/shared/desktop/bg-pattern-circle.svg") no-repeat center/contain;
   pointer-events: none;
   z-index: 0;
   
@@ -189,7 +189,7 @@ div.margin {
 .hero {
   position: relative;
   width: 100%;
-  height: 900px;
+  height: 56.25rem;
   overflow: hidden;
   z-index: 2;
 }
@@ -198,21 +198,22 @@ div.margin {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 40px;
+  gap: 2.5rem;
 }
 
 .hero_content {
-  max-width: 546px;
-  left: 237px;
+  max-width: 34.125rem;
+  left: 14.8125rem;
 }
 
 .hero_title {
   font-family: var(--ff-heading);
-  font-size: 72px;
-  line-height: 72px;
-  letter-spacing: -0.55px;
+  font-size: 4.5rem;
+  line-height: 4.5rem;
+  letter-spacing: -0.034rem;
   color: var(--clr-san-juan);
-  width: 546px;
+  width: 34.125rem;
+  padding-top: 11rem;
 }
 
 .hero_form {
@@ -224,16 +225,21 @@ div.margin {
 .hero_input {
   border: none;
   background: var(--clr-link-water);
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 700;
-  color: var(--clr-san-juan);
-  width: 445px;
-  height: 48px;
-  border-radius: 24px;
-  padding-left: 24px;
-  opacity: 0.5;
-  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25),
+  color: var(--bg-black);
+  opacity: 1;
+  width: 27.8125rem;
+  height: 3rem;
+  border-radius: 1.5rem;
+  padding-left: 1.5rem;
+  box-shadow: 10px 10px 25px -10px rgba(64, 98, 125, 0.25),
     -10px -10px 25px -10px rgba(0, 0, 0, 0.5);
+}
+
+.hero_input::placeholder {
+  color: var(--clr-san-juan);
+  opacity: 0.5;
 }
 
 .hero_input:focus {
@@ -241,24 +247,25 @@ div.margin {
 }
 
 .hero_btn {
-  padding-inline: 26px;
-  border-radius: 24px;
+  padding-inline: 1.625rem;
+  border-radius: 1.5rem;
   color: var(--clr-link-water);
   text-align: left;
   font-family: var(--ff-body);
-  font-size: 15px;
-  letter-spacing: -0.12px;
+  font-size: 0.9375rem;
+  letter-spacing: -0.0075rem;
   font-weight: 700;
   position: relative;
   background: var(--clr-pink);
   border: none;
   cursor: pointer;
+  transform: translatex(-68%);
 }
 
 .hero_contact {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: var(--clr-light-san-juan);
-  padding-left: 27px;
+  padding-left: 1.6875rem;
 }
 
 .hero_contact a:hover {
@@ -277,10 +284,11 @@ div.margin {
 }
 
 .hero_image img {
-  width: 400px;
+  width: 25rem;
   height: auto;
   display: block;
 }
+
 
 
 @media (max-width: 900px) {
