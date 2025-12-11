@@ -746,6 +746,7 @@ margin-left: 100px;
   row-gap: 60px;
   margin-bottom: 100px;
   margin-left: 100px;
+
 }
  
 .info-title {
@@ -858,13 +859,14 @@ margin-left: 100px;
  
 .bg-circle-3 {
   position: absolute;
-  top: 650px;
-  right: 1270px;
-  width: 1200px;
-  height: 1200px;
-  background: url("../desktop/bg-pattern-circle.svg") no-repeat center/contain;
+  top: 686px;
+  right: 1011px;
+  width: 780px;
+  height: 780px;
+  background: url("/openapi_frontend/assets/shared/desktop/bg-pattern-circle.svg") no-repeat center/contain;
   pointer-events: none;
   z-index:0;
+
 }
  
  
