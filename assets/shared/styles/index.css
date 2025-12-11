@@ -25,7 +25,6 @@ body {
 html,
 body {
   background: var(--clr-bg);
-  
 }
 
 .container {
@@ -82,7 +81,7 @@ body {
 .implement-flex__text {
   align-content: center;
   margin-right: 260px;
-  margin-top: -90px
+  margin-top: -90px;
 }
 
 .implement-heading {
@@ -180,7 +179,7 @@ div.margin {
 .hero {
   position: relative;
   width: 100%;
-  height: 56.25rem;
+  height: 45.25rem;
   overflow: hidden;
   z-index: 2;
 }
@@ -278,8 +277,6 @@ div.margin {
   height: auto;
   display: block;
 }
-
-
 
 @media (max-width: 900px) {
   .hero_inner {
@@ -396,7 +393,7 @@ div.margin {
 
 .pricing-page {
   position: relative;
-  padding-bottom: 120px;
+  padding-bottom: 10px;
 }
 
 .pricing-section__title {
@@ -537,7 +534,6 @@ div.margin {
   margin: 24px 0;
 }
 
-
 .plan-card__features {
   list-style: none;
   margin: 0;
@@ -589,7 +585,6 @@ div.margin {
   margin-top: 25px;
 }
 
-
 .cta__inner {
   display: flex;
   align-items: center;
@@ -626,9 +621,9 @@ div.margin {
   box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
 }
 
-.cta__input::placeholder{
-color: var(--clr-light-san-juan);
-opacity: 0.5;
+.cta__input::placeholder {
+  color: var(--clr-light-san-juan);
+  opacity: 0.5;
 }
 .cta__input:focus {
   outline: none;
@@ -640,24 +635,20 @@ opacity: 0.5;
   left: 295px;
 }
 
-
-.text{
-    color: #36536b;
+.text {
+  color: #36536b;
 }
 
 /** Easy to Implement ***/
 
 .feature-card {
-  
   box-sizing: border-box;
   align-items: center;
   height: 630px;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   margin-left: 165px;
   margin-right: 173px;
-  
-  
 }
 
 .feature-card_title {
@@ -682,28 +673,27 @@ opacity: 0.5;
   height: 56px;
 }
 
-.feature-card_icon { 
+.feature-card_icon {
   width: 700px;
-  height: auto; 
+  height: auto;
   position: relative;
   z-index: 1;
 }
 
-.feature-card_icon img { 
+.feature-card_icon img {
   width: 10%;
-  height: auto; 
+  height: auto;
   left: 40%;
   top: 30px;
   position: relative;
 }
 
-.shell{
+.shell {
   width: 100%;
-  
 }
 
 /* ABOUT */
- 
+
 body {
   margin: 0;
   background: var(--clr-bg);
@@ -711,7 +701,7 @@ body {
   font-family: var(--ff-body);
   overflow-x: hidden;
 }
- 
+
 .container-1440 {
   width: 100%;
   max-width: 1110px;
@@ -719,19 +709,19 @@ body {
   padding-top: 120px;
   position: relative;
 }
- 
+
 .hero-place {
   font-family: var(--ff-heading);
   line-height: 56px;
   margin-bottom: 80px;
   max-width: 620px;
   font-size: 56px;
-font-style: normal;
-font-weight: 400;
-font-family: var(--ff-heading);
-margin-left: 100px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: var(--ff-heading);
+  margin-left: 100px;
 }
- 
+
 .two-col-grid {
   display: grid;
   grid-template-columns: 260px 1fr;
@@ -739,25 +729,23 @@ margin-left: 100px;
   margin-bottom: 102px;
   margin-left: 100px;
 }
-.two-col-grid-margin{
+.two-col-grid-margin {
   margin-top: -96px;
-   display: grid;
+  display: grid;
   grid-template-columns: 260px 1fr;
   row-gap: 60px;
   margin-bottom: 100px;
   margin-left: 100px;
-
 }
- 
+
 .info-title {
   font-family: var(--ff-heading);
   font-size: 32px;
   color: var(--clr-san-juan);
   margin-top: 11px;
   font-family: var(--ff-heading);
- 
 }
- 
+
 .info-text {
   font-size: 15px;
   line-height: 28px;
@@ -765,7 +753,7 @@ margin-left: 100px;
   color: var(--clr-san-juan);
   font-family: var(--ff-body);
 }
- 
+
 .team-photo {
   width: 100vw;
   margin-left: 50%;
@@ -773,32 +761,32 @@ margin-left: 100px;
   display: block;
   margin-bottom: 100px;
 }
- 
-.stats-wrapper{
- width: 80%;
- max-width: 1440px;
- margin: 100px auto;
+
+.stats-wrapper {
+  width: 80%;
+  max-width: 1440px;
+  margin: 100px auto;
 }
- 
+
 .stats {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
   margin: 80px 0;
 }
- 
+
 .stat-col {
   border-top: 1px solid #c8d1da;
   border-bottom: 1px solid #c8d1da;
   padding: 0px 0;
 }
- 
+
 .stat-title {
   font-size: 16px;
   color: var(--clr-light-san-juan);
   margin-bottom: 2px;
 }
- 
+
 .stat-value {
   font-family: var(--ff-heading);
   font-size: 56px;
@@ -807,13 +795,13 @@ margin-left: 100px;
   margin-top: 15px;
   margin-bottom: 16px;
 }
- 
+
 .cta-wide {
- width: 80%;
- max-width: 1440px;
- margin: 120px auto;
+  width: 80%;
+  max-width: 1440px;
+  margin: 120px auto;
 }
- 
+
 .cta-block {
   width: 100%;
   margin: 0 0 165px 0;
@@ -821,13 +809,13 @@ margin-left: 100px;
   align-items: center;
   justify-content: space-between;
 }
- 
+
 .cta-title {
   font-family: var(--ff-heading);
   font-size: 48px;
   white-space: nowrap;
 }
- 
+
 .cta-form {
   display: inline-flex;
   align-items: center;
@@ -837,7 +825,7 @@ margin-left: 100px;
   height: 48px;
   box-shadow: 10px 10px 25px -10px #36536b40;
 }
- 
+
 .cta-input {
   border: none;
   padding: 0 24px;
@@ -845,7 +833,7 @@ margin-left: 100px;
   height: 48px;
   font-size: 15px;
 }
- 
+
 .cta-button {
   height: 48px;
   padding: 0 32px;
@@ -856,20 +844,19 @@ margin-left: 100px;
   cursor: pointer;
   border-radius: 999px;
 }
- 
+
 .bg-circle-3 {
   position: absolute;
   top: 686px;
   right: 1011px;
   width: 780px;
   height: 780px;
-  background: url("/openapi_frontend/assets/shared/desktop/bg-pattern-circle.svg") no-repeat center/contain;
+  background: url("/openapi_frontend/assets/shared/desktop/bg-pattern-circle.svg")
+    no-repeat center/contain;
   pointer-events: none;
-  z-index:0;
-
+  z-index: 0;
 }
- 
- 
+
 .cta-button {
   height: 48px;
   padding: 0 32px;
@@ -880,7 +867,7 @@ margin-left: 100px;
   cursor: pointer;
   border-radius: 999px;
 }
- 
+
 @media (max-width: 900px) {
   .feature-card {
     flex-direction: column;
@@ -900,50 +887,49 @@ margin-left: 100px;
 
 /* Circles */
 
-.img__circle{
+.img__circle {
   width: 60vw;
   max-width: 60vw;
   max-height: 864px;
 }
-  .img__circle1{
+.img__circle1 {
   width: 70vw;
   max-width: 60vw;
   max-height: 864px;
 }
 
-
-  /* Main */
-.img__cut{
+/* Main */
+.img__cut {
   position: absolute;
   top: -260px;
   right: 0vw;
   width: 50vw;
   overflow: hidden;
 }
-.img__cut1{
-  position: absolute; 
+.img__cut1 {
+  position: absolute;
   top: 1750px;
   right: 0vw;
   width: 30vw;
   overflow: hidden;
 }
 /* Pricing */
-.img__cut2{
-position: absolute;
+.img__cut2 {
+  position: absolute;
   top: -600px;
   right: 0px;
   width: 50vw;
   overflow: hidden;
-/* About */
+  /* About */
 }
-.img__cut3{
+.img__cut3 {
   position: absolute;
   top: -550px;
   right: 0px;
   width: 45vw;
   overflow: hidden;
 }
-.img__cut4{
+.img__cut4 {
   position: absolute;
   top: 650px;
   right: 1270px;
