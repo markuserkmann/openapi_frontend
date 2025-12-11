@@ -766,6 +766,7 @@ body {
 font-style: normal;
 font-weight: 400;
 font-family: var(--ff-heading);
+margin-left:100px;
 }
  
 .two-col-grid {
@@ -773,13 +774,16 @@ font-family: var(--ff-heading);
   grid-template-columns: 260px 1fr;
   row-gap: 60px;
   margin-bottom: 102px;
+  margin-left: 100px;
 }
 .two-col-grid-margin{
-  margin-top: -74px;
+  margin-top: -92px;
    display: grid;
   grid-template-columns: 260px 1fr;
   row-gap: 60px;
   margin-bottom: 100px;
+  margin-left:100px;
+  
 }
  
 .info-title {
@@ -808,7 +812,7 @@ font-family: var(--ff-heading);
 }
  
 .stats-wrapper{
- width: 100%;
+ width: 80%;
  max-width: 1440px;
  margin: 100px auto;
  padding: 0 165px;
@@ -843,7 +847,7 @@ font-family: var(--ff-heading);
 }
  
 .cta-wide {
- width: 100%;
+ width: 80%;
  max-width: 1440px;
  margin: 120px auto;
  padding: 0 165px;
@@ -904,13 +908,14 @@ font-family: var(--ff-heading);
 }
 .bg-circle-3 {
   position: absolute;
-  top: 650px;
-  right: 1270px;
-  width: 1200px;
-  height: 1200px;
-  background: url("../desktop/bg-pattern-circle.svg") no-repeat center/contain;
+  top: 686px;
+  right: 1011px;
+  width: 780px;
+  height: 780px;
+  background: url("/openapi_frontend/assets/shared/desktop/bg-pattern-circle.svg") no-repeat center/contain;
   pointer-events: none;
   z-index:0;
+
 }
  
  
