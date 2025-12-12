@@ -412,7 +412,8 @@ div.margin {
 
 .pricing-page {
   position: relative;
-  padding-bottom: 120px;
+  margin-left:78px;
+
 }
 
 .pricing-section__title {
@@ -437,13 +438,14 @@ div.margin {
   }
 
   .pricing-section {
-    padding-top: 85px;
+    padding-top: 82px;
+  
   }
 
   .pricing-section__title {
     font-size: 64px;
     line-height: 64px;
-    margin-bottom: 96px;
+    margin-bottom: 72px;
   }
 
   .pricing-section__grid {
@@ -506,6 +508,7 @@ div.margin {
   .cta__btn {
     left: 360px;
     height: 52px;
+  
   }
 
   .bg-circle__pricing {
@@ -602,7 +605,7 @@ div.margin {
 }
 
 .plan-card__btn {
-  margin-top: 25px;
+  margin-top: 7px;
 }
 
 
@@ -611,6 +614,7 @@ div.margin {
   align-items: center;
   justify-content: space-between;
   margin: 6rem 10.31rem;
+
 }
 
 .cta__title {
@@ -619,13 +623,14 @@ div.margin {
   line-height: 56px;
   letter-spacing: -0.37px;
   font-weight: 400;
-  margin: 0;
+  
 }
 
 .cta__form {
   position: relative;
   width: 445px;
   height: 48px;
+  margin-right: 110px;
 }
 
 .cta__input {
