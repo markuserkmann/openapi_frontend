@@ -39,35 +39,48 @@
         we’ll get in touch shortly.
       </h1>
  
-      <form class="help-form-contact">
-        <label>
-          <p type="Name:"><input class="form-text1__contact" placeholder="Name"></input></p>
-        </label>
- 
-        <label>
-          <p type="Email:"><input class="form-text1__contact"  placeholder="Email Adress"></input></p>
-        </label>
- 
-        <label>
-          <p type="Name:"><input class="form-text1__contact" placeholder="Company Name"></input></p>
-        </label>
- 
-        <label>
-          <p type="Name:"><input class="form-text1__contact" placeholder="Title"></input></p>
-        </label>
- 
-        <label>
-          <textarea class="form-text2__contact" placeholder="Message" rows="3"></textarea>
-        </label>
- <div class="checkbox-wrapper-21">
-  <label class="control control--checkbox">
-    <p class="check">Stay up-to-date with company announcements and updates to our API</p>
-    <input type="checkbox" />
-    <div class="control__indicator-contact"></div>
-  </label>
-</div>
-        <button type="submit" class="submit-contact">Submit</button>
-      </form>
+<form class="help-form-contact" novalidate>
+  <div class="field">
+    <label for="name" class="field__label"></label>
+    <input id="name" name="name" class="form-text1__contact" placeholder="Name" required />
+    <p class="field__error">This field can't be empty</p>
+  </div>
+
+  <div class="field">
+    <label for="email" class="field__label"></label>
+    <input id="email" name="email" type="email" class="form-text1__contact" placeholder="Email Address" required />
+    <p class="field__error">This field can't be empty</p>
+  </div>
+
+  <div class="field">
+    <label for="company" class="field__label"></label>
+    <input id="company" name="company" class="form-text1__contact" placeholder="Company Name" required />
+    <p class="field__error">This field can't be empty</p>
+  </div>
+
+  <div class="field">
+    <label for="title" class="field__label"></label>
+    <input id="title" name="title" class="form-text1__contact" placeholder="Title" required />
+    <p class="field__error">This field can't be empty</p>
+  </div>
+
+  <div class="field">
+    <label for="message" class="field__label"></label>
+    <textarea id="message" name="message" class="form-text2__contact" placeholder="Message" rows="3" required></textarea>
+    <p class="field__error">This field can't be empty</p>
+  </div>
+
+  <div class="checkbox-wrapper-21">
+    <label class="control control--checkbox">
+      <p class="check">Stay up-to-date with company announcements and updates to our API</p>
+      <input type="checkbox" />
+      <div class="control__indicator-contact"></div>
+    </label>
+  </div>
+
+  <button type="submit" class="submit-contact">Submit</button>
+</form>
+
     </div>
  
 
@@ -130,6 +143,66 @@
         <img src="./assets/shared/desktop/linkedin.svg" alt="linkedin" />
       </div>
     </footer>
+    <script>
+  const form = document.querySelector(".help-form-contact");
+
+  if (form) {
+    const fields = Array.from(form.querySelectorAll(".field"));
+
+    const setError = (field, msg) => {
+      field.classList.add("is-invalid");
+      const input = field.querySelector("input, textarea");
+      const error = field.querySelector(".field__error");
+      if (error) error.textContent = msg;
+      if (input) input.setAttribute("aria-invalid", "true");
+    };
+
+    const clearError = (field) => {
+      field.classList.remove("is-invalid");
+      const input = field.querySelector("input, textarea");
+      if (input) input.removeAttribute("aria-invalid");
+    };
+
+    const validateField = (field) => {
+      const input = field.querySelector("input, textarea");
+      if (!input) return true;
+
+      const value = input.value.trim();
+
+      if (value === "") {
+        setError(field, "This field can't be empty");
+        return false;
+      }
+
+      if (input.type === "email" && !input.checkValidity()) {
+        setError(field, "Please enter a valid email address");
+        return false;
+      }
+
+      clearError(field);
+      return true;
+    };
+
+    fields.forEach((field) => {
+      const input = field.querySelector("input, textarea");
+      if (!input) return;
+
+      input.addEventListener("blur", () => validateField(field));
+      input.addEventListener("input", () => {
+        if (field.classList.contains("is-invalid")) validateField(field);
+      });
+    });
+
+    form.addEventListener("submit", (e) => {
+      let ok = true;
+      fields.forEach((field) => {
+        if (!validateField(field)) ok = false;
+      });
+      if (!ok) e.preventDefault();
+    });
+  }
+</script>
+
 </body>
 
 </html>
