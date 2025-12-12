@@ -5,6 +5,11 @@
   grid-template-columns: 1fr 1fr;
   position: relative;
   z-index: 1;
+  gap: 125px;
+}
+
+.left__contact {
+  width: 445px;
 }
 
 .form-text1__contact {
@@ -19,19 +24,17 @@
   border-right: none;
   border-top: none;
   border-left: none;
-  margin-bottom: 30px;
   font-family: var(--ff-body);
 }
 
 .help-form-contact label {
   display: grid;
   gap: 8px;
-  font-family: var(--ff-body);
+  width: 445px;
 }
 
 .help-form-contact input,
 textarea {
-  width: 70%;
   background: transparent;
   padding: 10px 2px 8px;
   font-size: 14px;
@@ -45,9 +48,13 @@ textarea {
   min-height: 70px;
 }
 
+.help-form-contact::placeholder {
+  font-family: var(--ff-body);
+  /* margin neveikia */
+}
+
 .submit-contact {
   justify-self: start;
-  margin-top: 35px;
   padding: 15px 50px;
   border-radius: 999px;
   border: 1px solid #9db0bf;
@@ -72,6 +79,7 @@ textarea {
 
 .right-title-contact {
   color: #36536b;
+  width: 445px;
   font-family: var(--ff-heading);
   font-size: 24px;
   font-style: normal;
@@ -115,6 +123,11 @@ textarea {
   text-align: left;
   white-space: nowrap;
 }
+
+.checkbox-wrapper-21 {
+  width: 445px;
+}
+
 .checkbox-wrapper-21 .control {
   display: block;
   position: relative;
@@ -184,6 +197,15 @@ textarea {
 }
 .check {
   box-sizing: content-box;
-  width: 70%;
-  padding-left: 13px;
+  width: 350px;
+  height: 50px;
+  padding-left: 16px;
+  color: #36536b;
+  font-family: var(--ff-body);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 166.667% */
+  letter-spacing: -0.115px;
+  margin-top: 0px;
 }
