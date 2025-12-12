@@ -241,3 +241,15 @@ textarea {
 .field.is-invalid .field__error{
   display: block;
 }
+
+.cta-contact {
+  
+}
+
+.cta__inner-contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 80px 10.31rem 96px 10.31rem;
+
+}
