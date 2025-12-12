@@ -154,7 +154,7 @@ footer {
 }
 
 header {
-  margin: 40px 165px;
+  margin: 40px 165px 0 165px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -180,7 +180,7 @@ div.margin {
 .hero {
   position: relative;
   width: 100%;
-  height: 56.25rem;
+  height: 620px;
   overflow: hidden;
   z-index: 2;
 }
@@ -190,21 +190,24 @@ div.margin {
   align-items: center;
   justify-content: space-between;
   gap: 2.5rem;
+  margin-left: 165px;
 }
 
 .hero_content {
   max-width: 34.125rem;
-  left: 14.8125rem;
 }
 
 .hero_title {
   font-family: var(--ff-heading);
-  font-size: 4.5rem;
-  line-height: 4.5rem;
-  letter-spacing: -0.034rem;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 72px; /* 100% */
+  letter-spacing: -0.554px;
   color: var(--clr-san-juan);
   width: 34.125rem;
-  padding-top: 11rem;
+  margin-top: 152px;
+  margin-bottom: 21px;
 }
 
 .hero_form {
@@ -256,6 +259,7 @@ div.margin {
   font-size: 0.875rem;
   color: var(--clr-light-san-juan);
   padding-left: 1.6875rem;
+  margin-bottom: 151px;
 }
 
 .hero_contact a:hover {
@@ -268,8 +272,8 @@ div.margin {
 
 .hero_image {
   position: absolute;
-  right: 10%;
-  top: 10%;
+  right: 9rem;
+  top: 3%;
   z-index: 1;
 }
 
@@ -308,7 +312,7 @@ div.margin {
   position: relative;
   background-color: var(--clr-black);
   color: var(--clr-link-water);
-  padding-block: 96px;
+  padding-block: 100px;
   overflow: hidden;
 }
 
@@ -948,4 +952,12 @@ position: absolute;
   top: 650px;
   right: 1270px;
   width: 40vw;
+}
+/* Contact */
+.img__cut5{
+  position: absolute;
+  top: -550px;
+  right: 0px;
+  width: 45vw;
+  overflow: hidden;
 }
