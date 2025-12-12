@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./assets/shared/styles/contact.css" />
+    <link rel="stylesheet" href="./assets/shared/styles/index.css" />
+    <title>Frontend Mentor | PayAPI Website Challenge</title>
+  </head>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
-<link rel="stylesheet" href="./assets/shared/styles/contact.css" />
-<link rel="stylesheet" href="./assets/shared/styles/index.css">
-  <title>Frontend Mentor | PayAPI Website Challenge</title>
-</head>
+  <body>
+    <div class="bg-circle"></div>
 
 <body>
   <div class="img__cut5">
@@ -28,70 +35,104 @@
           </div>
         </nav>
       </div>
+
       <div>
         <button class="btn btn--primary">Shedule a Demo</button>
       </div>
     </header>
 
-  <div class="container__contact">
-    
-    <div class="left__contact">
-      <h1>
-        Submit a help request and <br />
-        we’ll get in touch shortly.
-      </h1>
- 
-      <form class="help-form-contact">
-        <label>
-          <p type="Name:"><input class="form-text1__contact" placeholder="Name"></input></p>
-        </label>
- 
-        <label>
-          <p type="Email:"><input class="form-text1__contact"  placeholder="Email Adress"></input></p>
-        </label>
- 
-        <label>
-          <p type="Name:"><input class="form-text1__contact" placeholder="Company Name"></input></p>
-        </label>
- 
-        <label>
-          <p type="Name:"><input class="form-text1__contact" placeholder="Title"></input></p>
-        </label>
- 
-        <label>
-          <textarea class="form-text2__contact" placeholder="Message" rows="3"></textarea>
-        </label>
- <div class="checkbox-wrapper-21">
-  <label class="control control--checkbox">
-    <p class="check">Stay up-to-date with company announcements and updates to our API</p>
-    <input type="checkbox" />
-    <div class="control__indicator-contact"></div>
-  </label>
-</div>
-        <button type="submit" class="submit-contact">Submit</button>
-      </form>
-    </div>
- 
+    <div class="container__contact">
+      <div class="left__contact">
+        <div class="contact-h1-div">
+          <h1 class="contact-h1">
+            Submit a help request and we’ll get in touch shortly.
+          </h1>
+        </div>
 
-    <div class="right-contact">
-      <h3 class="right-title-contact">
-        Join the thousands of innovators already building with us
-      </h>
- 
-  
-      <div class="logos-contact">
-        <div class="logos-contact"><img src="./assets/shared/desktop/tesla.svg" alt="tesla"></div>
-        <div class="logos-contact"><img src="./assets/shared/desktop/microsoft.svg" alt="microsoft"></div>
-        <div class="logos-contact"><img src="./assets/shared/desktop/hewlett-packard.svg" alt="hawlet"></div>
-        <div class="logos-contact"><img src="./assets/shared/desktop/oracle.svg" alt="oracle"></div>
-        <div class="logos-contact"><img src="./assets/shared/desktop/google.svg" alt="google"></div>
-        <div class="logos-contact"><img src="./assets/shared/desktop/nvidia.svg" alt="nvidia"></div>
+        <form class="help-form-contact">
+          <label>
+            <input class="form-text1__contact" type="text" placeholder="Name" />
+          </label>
+
+          <label>
+            <input
+              class="form-text1__contact"
+              type="email"
+              placeholder="Email Adress"
+            />
+          </label>
+
+          <label>
+            <input
+              class="form-text1__contact"
+              type="text"
+              placeholder="Company Name"
+            />
+          </label>
+
+          <label>
+            <input
+              class="form-text1__contact"
+              type="text"
+              placeholder="Title"
+            />
+          </label>
+
+          <label>
+            <textarea
+              class="form-text2__contact"
+              placeholder="Message"
+              rows="3"
+            ></textarea>
+          </label>
+
+          <div class="checkbox-wrapper-21">
+            <label class="control control--checkbox">
+              <p class="check">
+                Stay up-to-date with company announcements and updates to our
+                API
+              </p>
+              <input type="checkbox" />
+              <div class="control__indicator-contact"></div>
+            </label>
+          </div>
+
+          <button type="submit" class="submit-contact">Submit</button>
+        </form>
+      </div>
+
+      <div class="right-contact">
+        <p class="right-title-contact">
+          Join the thousands of innovators that are already building with us
+        </p>
+
+        <div class="logos-contact">
+          <div class="logos-contact">
+            <img src="./assets/shared/desktop/tesla.svg" alt="tesla" />
+          </div>
+          <div class="logos-contact">
+            <img src="./assets/shared/desktop/microsoft.svg" alt="microsoft" />
+          </div>
+          <div class="logos-contact">
+            <img
+              src="./assets/shared/desktop/hewlett-packard.svg"
+              alt="hawlet"
+            />
+          </div>
+          <div class="logos-contact">
+            <img src="./assets/shared/desktop/oracle.svg" alt="oracle" />
+          </div>
+          <div class="logos-contact">
+            <img src="./assets/shared/desktop/google.svg" alt="google" />
+          </div>
+          <div class="logos-contact">
+            <img src="./assets/shared/desktop/nvidia.svg" alt="nvidia" />
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</section>
 
-<section class="cta">
+    <section class="cta">
       <div class="cta__inner">
         <h2 class="cta__title">Ready to start?</h2>
 
@@ -109,7 +150,7 @@
       </div>
     </section>
 
-<footer class="site-footer">
+    <footer class="site-footer">
       <div>
         <nav class="footer-nav">
           <div>
@@ -120,18 +161,18 @@
             />
           </div>
           <div>
-            <a href="pricing.html" class="footer-a">Pricing </a>
+            <a href="pricing.html" class="footer-a">Pricing</a>
             <a href="about.html" class="footer-a">About</a>
             <a href="contact.html" class="footer-a">Contact</a>
           </div>
         </nav>
       </div>
+
       <div class="footer-social">
         <img src="./assets/shared/desktop/facebook.svg" alt="facebook" />
         <img src="./assets/shared/desktop/twitter.svg" alt="twitter" />
         <img src="./assets/shared/desktop/linkedin.svg" alt="linkedin" />
       </div>
     </footer>
-</body>
-
+  </body>
 </html>
