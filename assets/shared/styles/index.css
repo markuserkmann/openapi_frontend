@@ -282,27 +282,7 @@ div.margin {
   display: block;
 }
 
-@media (max-width: 900px) {
-  .hero_inner {
-    flex-direction: column-reverse;
-    text-align: center;
-  }
 
-  .hero_content {
-    margin-left: 0;
-  }
-
-  .hero_form {
-    margin-inline: auto;
-  }
-
-  .hero_image {
-    position: relative;
-    right: auto;
-    top: auto;
-    transform: none;
-  }
-}
 /*** Partners ***/
 
 .partners {
@@ -415,92 +395,6 @@ div.margin {
   display: flex;
   justify-content: space-between;
   gap: 30px;
-}
-
-@media (min-width: 769px) {
-  .pricing-page .container {
-    width: min(1185px, 100% - 96px);
-  }
-
-  .pricing-section {
-    padding-top: 82px;
-  
-  }
-
-  .pricing-section__title {
-    font-size: 64px;
-    line-height: 64px;
-    margin-bottom: 72px;
-  }
-
-  .pricing-section__grid {
-    gap: 40px;
-  }
-
-  .plan-card {
-    flex: 1 1 0;
-    max-width: 360px;
-  }
-
-  .plan-card__name {
-    font-size: 34px;
-    line-height: 42px;
-  }
-
-  .plan-card__price {
-    font-size: 60px;
-    line-height: 76px;
-  }
-
-  .plan-card {
-    flex: 1 1 0;
-    max-width: 360px;
-  }
-
-  .plan-card__name {
-    font-size: 34px;
-    line-height: 42px;
-  }
-
-  .plan-card__price {
-    font-size: 60px;
-    line-height: 76px;
-  }
-
-  .cta {
-    margin-top: 120px;
-  }
-
-  .cta__inner {
-    gap: 40px;
-  }
-
-  .cta__title {
-    font-size: 52px;
-    line-height: 60px;
-  }
-
-  .cta__form {
-    width: 520px;
-    height: 52px;
-  }
-
-  .cta__input {
-    height: 52px;
-    font-size: 16px;
-  }
-
-  .cta__btn {
-    left: 360px;
-    height: 52px;
-  
-  }
-
-  .bg-circle__pricing {
-    right: -140px;
-    width: 900px;
-    height: 1000px;
-  }
 }
 
 .plan-card {
@@ -859,18 +753,6 @@ body {
   border-radius: 999px;
 }
 
-.bg-circle-3 {
-  position: absolute;
-  top: 686px;
-  right: 1011px;
-  width: 780px;
-  height: 780px;
-  background: url("/openapi_frontend/assets/shared/desktop/bg-pattern-circle.svg")
-    no-repeat center/contain;
-  pointer-events: none;
-  z-index: 0;
-}
-
 .cta-button {
   height: 48px;
   padding: 0 32px;
@@ -882,22 +764,7 @@ body {
   border-radius: 999px;
 }
 
-@media (max-width: 900px) {
-  .feature-card {
-    flex-direction: column;
-    text-align: center;
-    gap: 48px;
-  }
 
-  .feature-card_bg-circle {
-    width: 560px;
-    height: 560px;
-  }
-
-  .feature-card_icon {
-    width: 350px;
-  }
-}
 
 /* Circles */
 
@@ -956,4 +823,151 @@ body {
   right: 0px;
   width: 45vw;
   overflow: hidden;
+}
+
+
+/* Media main */
+
+/* Media Header And Circle*/
+@media (max-width: 768px) {
+  header {
+  margin: 45px 40px 0 39px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+}
+
+/* Media Simple */
+
+@media (max-width: 768px) {
+  .feature-card {
+    flex-direction: column;
+    text-align: center;
+    gap: 48px;
+  }
+
+  .feature-card_bg-circle {
+    width: 560px;
+    height: 560px;
+  }
+
+  .feature-card_icon {
+    width: 350px;
+  }
+}
+
+/* Media homepage hero */
+
+@media (max-width: 900px) {
+  .hero_inner {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .hero_content {
+    margin-left: 0;
+  }
+
+  .hero_form {
+    margin-inline: auto;
+  }
+
+  .hero_image {
+    position: relative;
+    right: auto;
+    top: auto;
+    transform: none;
+  }
+}
+
+
+/* Media pricing */
+
+
+@media (max-width: 768px) {
+  .pricing-page .container {
+    width: min(1185px, 100% - 96px);
+  }
+
+  .pricing-section {
+    padding-top: 82px;
+  
+  }
+
+  .pricing-section__title {
+    font-size: 64px;
+    line-height: 64px;
+    margin-bottom: 72px;
+  }
+
+  .pricing-section__grid {
+    gap: 40px;
+  }
+
+  .plan-card {
+    flex: 1 1 0;
+    max-width: 360px;
+  }
+
+  .plan-card__name {
+    font-size: 34px;
+    line-height: 42px;
+  }
+
+  .plan-card__price {
+    font-size: 60px;
+    line-height: 76px;
+  }
+
+  .plan-card {
+    flex: 1 1 0;
+    max-width: 360px;
+  }
+
+  .plan-card__name {
+    font-size: 34px;
+    line-height: 42px;
+  }
+
+  .plan-card__price {
+    font-size: 60px;
+    line-height: 76px;
+  }
+
+  .cta {
+    margin-top: 120px;
+  }
+
+  .cta__inner {
+    gap: 40px;
+  }
+
+  .cta__title {
+    font-size: 52px;
+    line-height: 60px;
+  }
+
+  .cta__form {
+    width: 520px;
+    height: 52px;
+  }
+
+  .cta__input {
+    height: 52px;
+    font-size: 16px;
+  }
+
+  .cta__btn {
+    left: 360px;
+    height: 52px;
+  
+  }
+
+  .bg-circle__pricing {
+    right: -140px;
+    width: 900px;
+    height: 1000px;
+  }
 }
