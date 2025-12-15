@@ -959,6 +959,51 @@ body {
 }
 
 }
+
+/* Implement Media */
+
+@media (min-width:376px) and (max-width: 768px) {
+  .implement-flex {
+  display: flex;
+  margin-top: 95px;
+  margin-left: 110px;
+  flex-wrap: wrap;
+}
+
+.implement-flex__text {
+  align-content: center;
+  margin-right: 98px;
+  margin-top: -90px;
+  text-align: center;
+  width: 573px;
+}
+
+.implement-heading {
+  color: #36536b;
+  font-family: var(--ff-heading);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px; /* 116.667% */
+  letter-spacing: -0.369px;
+  text-align: center;
+}
+
+.implement-p {
+  font-family: var(--ff-body);
+  color: #6c8294;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 186.667% */
+  width: 573px;
+}
+
+.implement-image__margin {
+  margin-right: 20px;
+}
+}
+
 /* Media Simple */
 
 @media (min-width:376px) and (max-width: 768px) {
