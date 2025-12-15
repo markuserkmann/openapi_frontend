@@ -282,7 +282,6 @@ div.margin {
   display: block;
 }
 
-
 /*** Partners ***/
 
 .partners {
@@ -377,8 +376,7 @@ div.margin {
 
 .pricing-page {
   position: relative;
-  margin-left:78px;
-
+  margin-left: 78px;
 }
 
 .pricing-section__title {
@@ -491,7 +489,6 @@ div.margin {
   align-items: center;
   justify-content: space-between;
   margin: 6rem 10.31rem;
-
 }
 
 .cta__title {
@@ -500,7 +497,6 @@ div.margin {
   line-height: 56px;
   letter-spacing: -0.37px;
   font-weight: 400;
-  
 }
 
 .cta__form {
@@ -554,7 +550,7 @@ div.margin {
   margin-right: 173px;
   align-items: center;
 }
-.text__align{
+.text__align {
   margin-bottom: 104px;
 }
 
@@ -669,11 +665,11 @@ body {
   margin-bottom: 72px;
   margin-top: 100px;
 }
- 
-.stats-wrapper{
- width: 80%;
- max-width: 1440px;
- margin: 73px auto;
+
+.stats-wrapper {
+  width: 80%;
+  max-width: 1440px;
+  margin: 73px auto;
 }
 
 .stats {
@@ -764,8 +760,6 @@ body {
   border-radius: 999px;
 }
 
-
-
 /* Circles */
 
 .img__circle {
@@ -787,8 +781,8 @@ body {
   width: 50vw;
   overflow: hidden;
 }
-.img__cut1{
-  position: absolute; 
+.img__cut1 {
+  position: absolute;
   top: 1550px;
   right: 0vw;
   width: 25vw;
@@ -817,7 +811,7 @@ body {
   width: 40vw;
 }
 /* Contact */
-.img__cut5{
+.img__cut5 {
   position: absolute;
   top: -550px;
   right: 0px;
@@ -825,18 +819,28 @@ body {
   overflow: hidden;
 }
 
+#header__mobile {
+  display: none;
+}
+
+.header-logo__mobile {
+  width: 135px;
+  height: 38px;
+  /* margin-left: 25px; */
+  /* margin-top: 40px; */
+}
 
 /* Media main */
 
 /* Media Header And Circle*/
 @media (min-width:376px) and (max-width: 768px) {
   header {
-  margin: 45px 40px 0 39px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 1;
-}
+    margin: 45px 40px 0 39px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+  }
 }
 
 /* Media homepage hero */
@@ -975,9 +979,7 @@ body {
 }
 
 
-
 /* Media pricing */
-
 
 @media (max-width: 768px) {
   .pricing-page .container {
@@ -986,7 +988,6 @@ body {
 
   .pricing-section {
     padding-top: 82px;
-  
   }
 
   .pricing-section__title {
@@ -1055,7 +1056,6 @@ body {
   .cta__btn {
     left: 360px;
     height: 52px;
-  
   }
 
   .bg-circle__pricing {
@@ -1064,3 +1064,82 @@ body {
     height: 1000px;
   }
 }
+
+/* Media for mobile */
+/* Media header */
+@media (max-width: 375px) {
+  #header__desktop {
+    display: none;
+  }
+  #header__mobile {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    position: relative;
+    z-index: 2;
+  }
+}
+
+/* #menu-toggle {
+  display: none;
+}
+
+.menu-btn {
+  cursor: pointer;
+  z-index: 3;
+}
+
+.icon-open {
+  width: 24px;
+}
+
+.icon-close {
+  display: none;
+  font-size: 28px;
+  color: #fff;
+}
+
+.mobile-menu {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: -260px;
+  width: 260px;
+  height: 100vh;
+  background: #1b262f;
+  padding: 100px 24px;
+  transition: 0.3s ease;
+}
+
+.mobile-menu a {
+  display: block;
+  text-align: center;
+  color: #fbfcfe;
+  text-decoration: none;
+  font-size: 18px;
+  margin-bottom: 24px;
+  opacity: 0.8;
+}
+
+.mobile-btn {
+  margin-top: 24px;
+  width: 100%;
+  padding: 14px;
+  border-radius: 24px;
+  border: none;
+  background: #ba4270;
+  color: #fff;
+  font-size: 16px;
+}
+
+#menu-toggle:checked ~ .mobile-menu {
+  right: 0;
+}
+#menu-toggle:checked + .menu-btn .icon-open {
+  display: none;
+}
+#menu-toggle:checked + .menu-btn .icon-close {
+  display: block;
+} */
