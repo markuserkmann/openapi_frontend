@@ -957,7 +957,7 @@ body {
 }
 /* Media Simple */
 
-@media (min-width:376px) (max-width: 768px) {
+@media (min-width:376px) and (max-width: 768px) {
   .feature-card {
     flex-direction: column;
     text-align: center;
