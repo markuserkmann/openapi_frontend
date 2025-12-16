@@ -1013,14 +1013,16 @@ body {
   align-items: center;
   height: 780px;
   display: flex;
-  margin-left: 97px;
-  margin-right: 98px;
+  margin-left: 20px;
+  margin-right: 96px;
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column-reverse;
+  text-align: center;
 }
 .text__align {
   margin-bottom: 104px;
+  margin-left: 50px;
   
 }
 
@@ -1032,7 +1034,6 @@ body {
   letter-spacing: -0.37px;
   font-weight: 400;
   margin-right: 97.57px;
-  margin-left: 50px;
   margin-bottom: 24px;
   text-align: center;
   
@@ -1044,18 +1045,18 @@ body {
   font-size: 15px;
   line-height: 28px;
   font-weight: 400;
-  margin-right: 97.57px;
+  margin-right: 100.57px;
   margin-left: 50px;
-  width: 445px;
+  width: 573px;
   height: 56px;
   text-align: center;
 }
 
 .feature-card_icon {
   width: 500px;
-  height: auto;
   position: relative;
   z-index: 1;
+  top: 50px;
 }
 
 .feature-card_icon img {
