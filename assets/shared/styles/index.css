@@ -46,6 +46,8 @@ body {
   letter-spacing: -0.12px;
   white-space: nowrap;
   transition: background-color 0.15s ease, color 0.15s ease;
+  position: relative;
+  z-index: 1;
 }
 
 .btn--primary {
@@ -841,6 +843,17 @@ body {
     align-items: center;
     z-index: 1;
   }
+  nav a {
+  text-decoration: none;
+  color: var(--clr-san-juan);
+  margin-left: 40px;
+  font-family: var(--ff-body);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  opacity: 0.7;
+}
 }
 
 /* Media homepage hero */
@@ -1089,6 +1102,65 @@ body {
   margin-bottom: 16px;
 }
 }
+
+/* Input media */
+
+@media (min-width:376px) and (max-width: 768px){
+.cta__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 100px 100px 100px;
+}
+
+.cta__title {
+  font-family: var(--ff-heading);
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.37px;
+  font-weight: 400;
+  text-align: center;
+  margin: auto;
+}
+
+.cta__form {
+  position: relative;
+  width: 445px;
+  height: 48px;
+  margin: auto;
+}
+
+.cta__input {
+  width: 100%;
+  height: 48px;
+  border-radius: 24px;
+  border: none;
+  background-color: var(--clr-link-water);
+  padding-left: 18px;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--clr-black);
+  opacity: 1;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+}
+
+.cta__input::placeholder {
+  color: var(--clr-light-san-juan);
+  opacity: 0.5;
+  padding-left: px;
+}
+.cta__input:focus {
+  outline: none;
+}
+
+.cta__btn {
+  position: absolute;
+  top: 0;
+  left: 295px;
+}
+
+
 
 
 /* Media pricing */
