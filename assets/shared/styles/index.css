@@ -1188,3 +1188,36 @@ body {
 #menu-toggle:checked + .menu-btn .icon-close {
   display: block;
 } */
+
+@media (min-width:376px) and (max-width: 768px) {
+  .partners{
+    padding-block: 88px;
+    text-align: center;
+  }
+
+  .partners_inner{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+  }
+
+  .partners_content{
+    max-width: 768px;
+  }
+
+  .partners_logos{
+    justify-items: center;
+    align-items: center;
+    gap: 40px 48px;
+  }
+
+  .google{
+    margin-left: 0;
+  }
+
+  .partners::before{
+    left: 50%;
+    top: -520px;
+  }
+}
