@@ -1126,6 +1126,7 @@ body {
     align-items: center;
     padding: 24px;
     background-color: #edf3f8;
+    width: 100%;
   }
 
   /* MENU BUTTON */
@@ -1150,7 +1151,7 @@ body {
     background-color: #1b262f;
     padding: 32px 24px;
     transition: right 0.3s ease;
-    z-index: 10;
+    z-index: 5;
   }
 
   /* OPEN STATE */
@@ -1191,4 +1192,26 @@ body {
     font-size: 16px;
     margin-top: 32px;
   }
+
+  header {
+    margin: 0;
+  }
+  div nav {
+    display: block;
+  }
+
+  nav a {
+    margin-left: 0px;
+  }
+  nav a:hover {
+    font-weight: bold;
+  }
+  div.margin {
+    margin-right: 0px;
+  }
+
+  .hero {
+    z-index: 1;
+  }
+ 
 }
