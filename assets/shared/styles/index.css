@@ -761,6 +761,9 @@ body {
   border-radius: 999px;
 }
 
+#Contact-us__mobile{
+  font-weight: bold;
+}
 /* Circles */
 
 .img__circle {
@@ -1176,8 +1179,9 @@ body {
     width: 573px;
   }
 
-  .implement-image__margin {
+  .implement-image__margin img {
     margin-right: 20px;
+    width: 580px;
   }
 }
 
@@ -1292,6 +1296,7 @@ body {
   font-weight: 400;
   text-align: center;
   margin: auto;
+  margin-bottom: 30px;
 }
 
 .cta__form {
