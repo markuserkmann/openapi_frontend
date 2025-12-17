@@ -1698,11 +1698,17 @@ body {
   }
 
   .feature-card_text {
+    color: #6C8294;
     width: 100%;
     height: auto;
     font-size: 15px;
     line-height: 28px;
     margin: 0 auto;
+    font-family: var(--ff-body);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 186.667% */
   } 
  }
 @media (max-width: 375px) {
@@ -1855,6 +1861,12 @@ body {
     top: 0;
     left: 0;
     width: 100%; 
+
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.115px;
   }
 
   .cta-form {
@@ -1864,6 +1876,10 @@ body {
   .cta__input {
     width: 300px;
     margin-bottom: 16px;
+  }
+
+  .cta__form {
+    margin: 0;
   }
 }
 
