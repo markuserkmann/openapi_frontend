@@ -1717,6 +1717,41 @@ body {
   }
 }
 
+/* easy to implement */
+@media (max-width: 375px) {
+ .implement-flex {
+  flex-wrap: wrap;
+  margin: 80px 24px 48px 24px;
+ }
+
+ .implement-image__margin img {
+  width: 328px;
+  height: 209px;
+ }
+
+ .implement-heading {
+  width: 327px;
+  font-size: 36px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 36px; 
+ letter-spacing: -0.277px;
+ }
+
+ .implement-p {
+  width: 328px;
+  font-size: 15px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 28px; 
+ }
+
+ .implement-flex__text {
+  margin: 0;
+  text-align: center;
+ }
+}
+
 @media (min-width:376px) and (max-width: 768px) {
   .partners{
     padding-block: 88px;
