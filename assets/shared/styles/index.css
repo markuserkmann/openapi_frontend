@@ -1372,7 +1372,7 @@ body {
   }
 
   .menu-btn img {
-    width: 35px;
+    width: 30px;
     height: 24px;
   }
 
@@ -1583,6 +1583,10 @@ body {
     text-align: center;
   }
 
+  .container {
+    width: auto;
+  }
+
   /*  IMAGE  */
   .hero_image {
     position: relative;
@@ -1649,8 +1653,13 @@ body {
  }
 
  .implement-image__margin img {
-  width: 328px;
-  height: 209px;
+  width: 450px;
+  height: 100%;
+  margin-left: -35px;
+ }
+
+ .img__cut1 {
+  display: none;
  }
 
  .implement-heading {
