@@ -18,7 +18,7 @@
     <title>Frontend Mentor | PayAPI Website Challenge</title>
   </head>
   <body>
-    <header>
+    <header id="header__desktop">
       <div>
         <nav>
           <div class="margin">
@@ -35,6 +35,43 @@
         <button class="btn btn--primary">Shedule a Demo</button>
       </div>
     </header>
+
+          <!-- mobile header -->
+      <div id="header__mobile">
+        <header class="header">
+          <div class="logo">
+            <img src="assets/shared/desktop/logo.svg" alt="logo" />
+          </div>
+
+          <button class="menu-btn" id="menuBtn">
+            <img src="assets/shared/mobile/menu.svg" alt="menu" />
+          </button>
+        </header>
+
+        <nav class="mobile-menu" id="mobileMenu">
+          <button class="close-btn" id="closeBtn">✕</button>
+          <hr class="border__mobile" />
+          <a href="pricing.html">Pricing</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+
+          <button class="demo-btn">Schedule a Demo</button>
+        </nav>
+      </div>
+      <script>
+        const menuBtn = document.getElementById("menuBtn");
+        const closeBtn = document.getElementById("closeBtn");
+        const menu = document.getElementById("mobileMenu");
+
+        menuBtn.addEventListener("click", () => {
+          menu.classList.add("is-open");
+        });
+
+        closeBtn.addEventListener("click", () => {
+          menu.classList.remove("is-open");
+        });
+      </script>
+
     <div class="img__cut2">
       <img src="/assets/shared/desktop/bg-pattern-circle.svg" alt="circle" class="img__circle1">
     </div>
