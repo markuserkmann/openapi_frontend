@@ -541,8 +541,6 @@ div.margin {
   color: #36536b;
 }
 
-/** Easy to Implement ***/
-
 .feature-card {
   box-sizing: border-box;
   align-items: center;
@@ -1543,6 +1541,46 @@ body {
   }
 }
 
+
+@media (max-width: 375px) {
+  .feature-card {
+    flex-direction: column;
+    height: auto;
+    margin: 0;
+    padding: 80px 24px 0;
+    text-align: center;
+  }
+
+  /* IMAGE */
+  .feature-card > div:last-child {
+    order: -1;
+    margin-bottom: 48px;
+  }
+
+  .feature-card_icon {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+  }
+
+  /* text */
+  .text__align {
+    margin-bottom: 0;
+  }
+
+  .feature-card_title {
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: -0.28px;
+    margin: 0 0 24px;
+  }
+
+  .feature-card_text {
+    width: 100%;
+    height: auto;
+    font-size: 15px;
+    line-height: 28px;
+    margin: 0 auto;
 @media (max-width: 375px) {
   /*  HERO  */
   .hero {
