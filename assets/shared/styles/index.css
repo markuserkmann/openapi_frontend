@@ -1035,6 +1035,8 @@ body {
     height: 620px;
     overflow: hidden;
     z-index: 2;
+    margin-top: 53px;
+    margin-bottom: 48px;
   }
 
   .hero_inner {
@@ -1058,7 +1060,7 @@ body {
     letter-spacing: -0.369px;
     color: var(--clr-san-juan);
     width: 34.125rem;
-    margin-top: 318px;
+    margin-top: 358px;
     margin-left: 50px;
     margin-bottom: 21px;
     text-align: center;
@@ -1115,26 +1117,23 @@ body {
     color: var(--clr-light-san-juan);
     padding-left: 1.6875rem;
     margin-left: 174px;
+    
   }
 
-  .hero_contact a:hover {
-    font-weight: 700;
-    text-decoration: underline;
-    color: var(--clr-san-juan);
-    text-decoration: none;
-    cursor: pointer;
-  }
-
+#Contact-us__mobile{
+  font-weight: bold;
+}
   .hero_image {
     position: absolute;
     right: auto;
-    top: 3%;
+    top: -2%;
   }
 
   .hero_image img {
-    width: 200px;
+    width: 250px;
     height: auto;
     display: block;
+    
   }
 }
 
