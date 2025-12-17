@@ -1752,6 +1752,12 @@ body {
  }
 }
 
+@media (max-width: 375px) {
+  .finances {
+    flex-wrap: wrap;
+  }
+}
+
 @media (min-width:376px) and (max-width: 768px) {
   .partners{
     padding-block: 88px;
