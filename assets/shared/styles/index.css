@@ -761,6 +761,9 @@ body {
   border-radius: 999px;
 }
 
+#Contact-us__mobile{
+  font-weight: bold;
+}
 /* Circles */
 
 .img__circle {
