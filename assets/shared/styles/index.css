@@ -1063,7 +1063,7 @@ body {
     letter-spacing: -0.369px;
     color: var(--clr-san-juan);
     width: 34.125rem;
-    margin-top: 358px;
+    margin-top: 378px;
     margin-left: 50px;
     margin-bottom: 21px;
     text-align: center;
@@ -1134,7 +1134,7 @@ body {
 
   .hero_image img {
     width: 250px;
-    height: auto;
+    height: 430px;
     display: block;
     
   }
