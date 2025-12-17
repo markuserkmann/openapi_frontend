@@ -1510,7 +1510,7 @@ body {
 
   .menu-btn img {
     width: 30px;
-    height: 24px;
+    height: 18px;
   }
 
   /* MOBILE MENU */
@@ -1676,12 +1676,12 @@ body {
   /* IMAGE */
   .feature-card > div:last-child {
     order: -1;
-    margin-bottom: 48px;
   }
 
   .feature-card_icon {
-    width: 100%;
-    max-width: 320px;
+    width: 400px;
+    margin-left: 20px;
+    max-width: 400px;
     height: auto;
   }
 
@@ -1709,14 +1709,13 @@ body {
   /*  HERO  */
   .hero {
     height: auto;
-    padding-top: 2rem;
     padding-bottom: 4rem;
   }
 
   .hero_inner {
     flex-direction: column;
     margin-left: 0;
-    gap: 2rem;
+    gap: 0;
     text-align: center;
   }
 
@@ -1830,6 +1829,12 @@ body {
   .text-finances {
     width: 328px;
     padding-left: 24px;
+    font-family: var(--ff-body);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+    letter-spacing: -0.115px;
   }
 }
 /* input media mobile */
@@ -1858,6 +1863,7 @@ body {
 
   .cta__input {
     width: 300px;
+    margin-bottom: 16px;
   }
 }
 
@@ -1911,8 +1917,6 @@ body {
   justify-content: space-between;
   margin-left: 0;
 }
-
-
 
 .footer-nav a:hover {
   color: #ffffff;
