@@ -1129,7 +1129,7 @@ body {
   .hero_image {
     position: absolute;
     right: auto;
-    top: -2%;
+    top: -6%;
   }
 
   .hero_image img {
@@ -1181,7 +1181,8 @@ body {
 
   .implement-image__margin img {
     margin-right: 20px;
-    width: 580px;
+    width: 500px;
+    margin-left: 55px;
   }
 }
 
@@ -1192,7 +1193,7 @@ body {
   .feature-card {
   box-sizing: border-box;
   align-items: center;
-  height: 780px;
+  height: 650px;
   display: flex;
   margin-left: 20px;
   margin-right: 96px;
@@ -1232,7 +1233,7 @@ body {
   }
 
 .feature-card_icon {
-  width: 550px;
+  width: 400px;
   position: relative;
   z-index: 1;
   top: 50px;
