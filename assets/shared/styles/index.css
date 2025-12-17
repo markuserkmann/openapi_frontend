@@ -1837,7 +1837,7 @@ body {
     flex-direction: column;
     height: auto;
     margin: 0;
-    padding: 20px 24px 0;
+    padding: 0px 24px 0;
     text-align: center;
   }
 
@@ -1848,7 +1848,6 @@ body {
 
   .feature-card_icon {
     width: 400px;
-    margin-left: 20px;
     max-width: 400px;
     height: auto;
   }
@@ -1866,11 +1865,17 @@ body {
   }
 
   .feature-card_text {
+    color: #6C8294;
     width: 100%;
     height: auto;
     font-size: 15px;
     line-height: 28px;
     margin: 0 auto;
+    font-family: var(--ff-body);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 186.667% */
   } 
  }
 @media (max-width: 375px) {
@@ -1956,11 +1961,21 @@ body {
   margin: 80px 24px 48px 24px;
  }
 
- .implement-image__margin img {
-  width: 450px;
-  height: 100%;
-  margin-left: -35px;
+ .implement-image__margin {
+  width: 500px;
+  overflow: hidden;
  }
+
+ .implement-image__margin img {
+  width: 400px;
+  height: 100%;
+  margin-left: -32px;
+ }
+
+  #feature-card_icon {
+    width: 375px;
+    overflow: hidden;
+  }
 
  .img__cut1 {
   display: none;
@@ -1986,12 +2001,17 @@ body {
  .implement-flex__text {
   margin: 0;
   text-align: center;
+  margin-top: -50px;
  }
 }
 /* finances */
 @media (max-width: 375px) {
   .finances {
     flex-wrap: wrap;
+  }
+
+  .finances div img {
+    margin-top: 48px;
   }
 
   .text-finances {
@@ -2004,6 +2024,10 @@ body {
     line-height: 25px; /* 166.667% */
     letter-spacing: -0.115px;
   }
+
+  .heading-finances {
+    margin-top: 32px;
+  }
 }
 /* input media mobile */
 @media (max-width: 375px) {
@@ -2012,6 +2036,7 @@ body {
     margin: 0;
     margin-bottom: 100px;
     padding: 24px;
+    padding-top: 0;
   }
 
   .cta-title {
@@ -2023,6 +2048,12 @@ body {
     top: 0;
     left: 0;
     width: 100%; 
+
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.115px;
   }
 
   .cta-form {
@@ -2032,6 +2063,10 @@ body {
   .cta__input {
     width: 300px;
     margin-bottom: 16px;
+  }
+
+  .cta__form {
+    margin: 0;
   }
 }
 
