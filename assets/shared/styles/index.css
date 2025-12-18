@@ -1539,6 +1539,7 @@ body {
     padding: 24px;
     position: relative;
     z-index: 2;
+    margin-top: 15px;
   }
   /* HEADER */
   .header {
@@ -1555,6 +1556,7 @@ body {
     background: none;
     border: none;
     cursor: pointer;
+    padding: 0;
   }
   
   .menu-btn img {
@@ -1666,7 +1668,6 @@ body {
   /* IMAGE */
   .feature-card > div:last-child {
     order: -1;
-    margin-bottom: 48px;
   }
 
   .feature-card_icon {
@@ -1699,7 +1700,7 @@ body {
   /*  HERO  */
   .hero {
     height: auto;
-    padding-top: 2rem;
+    
     padding-bottom: 4rem;
   }
   
@@ -1716,7 +1717,7 @@ body {
     right: 0;
     top: 0;
     order: -1;
-    margin-top: 2rem;
+    
   }
   
   .hero_image img {
@@ -1773,8 +1774,6 @@ body {
   .partners {
     padding-block: 80px;
     text-align: center;
-    
-    
   }
 
   .partners::before { /* buble */
@@ -1793,23 +1792,24 @@ body {
 
   .partners_content {
     max-width: 100%;
+    margin-top: -3px;
   }
 
   .partners_title {
     font-size: 32px;
     line-height: 36px;
     letter-spacing: -0.25px;
-    margin-bottom: 16px;
-   
+    margin-bottom: 7px;
   }
 
   .partners_text {
+    font-family: var(--ff-body);
     font-size: 15px;
     line-height: 28px;
-    margin-bottom: 32px;
+    margin-bottom: 60px;
     font-style: normal;
     font-weight: 400;
-    width: 327px;
+    width: 350px;
   }
 
   .btn {
@@ -1847,21 +1847,25 @@ body {
   }
 
   .feature-card_icon {
-    width: 400px;
-    max-width: 400px;
+    width: 420px;
+    max-width: 500px;
     height: auto;
+    margin-top: -10px;
+    margin-left: -5px;
   }
 
   /* text */
   .text__align {
     margin-bottom: 0;
+    margin-top: -10px;
   }
 
   .feature-card_title {
     font-size: 36px;
     line-height: 36px;
     letter-spacing: -0.28px;
-    margin: 0 0 24px;
+    margin: 0;
+    margin-bottom: 10px;
   }
 
   .feature-card_text {
@@ -1882,7 +1886,7 @@ body {
   /*  HERO  */
   .hero {
     height: auto;
-    padding-bottom: 4rem;
+    padding-bottom: 80px;
   }
 
   .hero_inner {
@@ -1902,11 +1906,12 @@ body {
     right: 0;
     top: 0;
     order: -1;
-    margin-top: 2rem;
+    margin-top: -20px;
+    margin-right: -25px;
   }
 
   .hero_image img {
-    width: 10.75rem; 
+    width: 200px; 
     margin: 0 auto;
   }
 
@@ -1921,13 +1926,14 @@ body {
     font-size: 2rem; 
     line-height: 2.25rem;
     letter-spacing: -0.25px;
-    margin-top: 0;
-    margin-bottom: 1.5rem;
+    margin-top: -20px;
+    
   }
 
   .hero_form {
     flex-wrap: wrap;
     gap: 1rem;
+    margin-top: -10px;
   }
 
   .hero_input {
@@ -1944,9 +1950,13 @@ body {
 
   .hero_contact {
     padding-left: 0;
-    margin-top: 1.5rem;
+    margin-top: 1.7rem;
     margin-bottom: 0;
     font-size: 0.875rem;
+    font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
   }
 
   #Contact-us__mobile {
@@ -1970,6 +1980,8 @@ body {
   width: 400px;
   height: 100%;
   margin-left: -32px;
+  margin-top: -20px;
+  margin-bottom: 10px;
  }
 
   #feature-card_icon {
@@ -1991,11 +2003,12 @@ body {
  }
 
  .implement-p {
-  width: 328px;
+  width: 350px;
   font-size: 15px;
  font-style: normal;
  font-weight: 400;
  line-height: 28px; 
+ margin-top: -10px;
  }
 
  .implement-flex__text {
@@ -2008,10 +2021,21 @@ body {
 @media (max-width: 375px) {
   .finances {
     flex-wrap: wrap;
+    margin-top: 38px;
   }
 
   .finances div img {
     margin-top: 48px;
+  }
+
+  #finance-img2 {
+  margin-top: 30px;
+  margin-bottom: -5px;
+  }
+
+  #finance-img3 {
+  margin-top: 35px;
+  margin-bottom: -5px;
   }
 
   .text-finances {
@@ -2034,13 +2058,21 @@ body {
   .cta__inner {
     flex-wrap: wrap;
     margin: 0;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
     padding: 24px;
     padding-top: 0;
   }
 
   .cta-title {
     width: 328px;
+  }
+
+  .cta__title {
+    font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px; /* 112.5% */
+letter-spacing: -0.246px;
   }
 
   .cta__btn {
@@ -2062,7 +2094,7 @@ body {
 
   .cta__input {
     width: 300px;
-    margin-bottom: 16px;
+    margin-bottom: 12px;
   }
 
   .cta__form {
@@ -2244,6 +2276,7 @@ margin-left: 20px;
   .footer-a {
     margin: 0;
     font-size: 15px;
+    margin-bottom: 10px;
   }
 
   .footer-social {
