@@ -1513,7 +1513,6 @@ body {
   left: 275px;
 }
 }
-
 /* Media for mobile */
 /* Media header */
 @media (max-width: 375px) {
@@ -2417,8 +2416,8 @@ margin-right: 31px;
     line-height: 32px;
   }
   .plan-card__price {
-    font-size: 48px;
-    line-height: 56px;
+    font-size: 58px;
+    line-height: 60px;
   }
   .plan-card__features {
     display: flex;
@@ -2454,7 +2453,7 @@ margin-right: 31px;
     padding-bottom: 30px;
   }
   .cta__title {
-    font-size: 48px;
+    font-size: 35px;
     line-height: 56px;
     letter-spacing: -0.37px;
     font-weight: 400;
