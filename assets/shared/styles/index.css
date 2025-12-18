@@ -2071,6 +2071,95 @@ body {
 }
 
 
+@media (min-width:376px) and (max-width: 768px) {
+  
+.pricing-page{
+  margin: 0;
+}
+.pricing-page .container{
+  width: 889px, 100% -80px;
+  margin-inline:auto;
+}
+.pricing-section{
+  padding-top: 82px;
+}
+.pricing-section__title{
+  text-align: center;
+  font-size: 48px;
+  line-height: 56px;
+  margin: 0 0 60px;
+}
+.pricing-section__grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  text-align: center;
+  gap: 20px;
+}
+.plan-card{
+  display:flex;
+  flex-direction: column;
+text-align: center;
+
+}
+.plan-card__desc{
+  min-width: 112px;
+  margin-bottom: 16px;
+}
+.plan-card__name{
+  font-size: 24px;
+  line-height: 32px;
+}
+.plan-card__price{
+  font-size: 48px;
+  line-height: 56px;
+}
+.plan-card__features{
+  display: flex;
+flex: 1;
+align-items:flex-start;
+opacity: 1;
+padding-left: 50px;
+}
+.plan-card__btn{
+  margin-top: auto;
+  align-self: center;
+}
+.cta .container{
+  margin-inline:top; 
+}
+.cta__inner{
+  margin-inline:auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 110px;
+  margin-bottom: 100px; 
+}
+.cta-form{
+margin-inline: auto;
+display: flex;
+justify-content: center;
+}
+.cta{
+  padding-bottom: 30px;
+}
+    .cta__title {
+
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: -0.37px;
+        font-weight: 400;
+        text-align: center;
+        margin: auto;
+    }
+
+
+
+}
 /* FOOTER TABLET */
 
 @media (min-width: 376px) and (max-width: 768px){
