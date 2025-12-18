@@ -2256,3 +2256,92 @@ margin-left: 20px;
     margin: 0;
   }
 }
+
+/* contact mobile media */
+@media (max-width: 375px) {
+
+  .container__contact {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding: 24px;
+  }
+
+  .left__contact {
+    width: 100%;
+  }
+
+  .contact-h1-div {
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+  }
+
+  .contact-h1 {
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.25px;
+    text-align: center;
+  }
+
+  /* idk */
+  .help-form-contact {
+    width: 100%;
+  }
+
+  .help-form-contact label,
+  .form-text1__contact,
+  .form-text2__contact {
+    width: 100%;
+  }
+
+.checkbox-wrapper-21 {
+  width: 100%;
+  overflow: hidden;
+}
+
+  .help-form-contact input,
+  .help-form-contact textarea {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  /* checkbox */
+  .check {
+  width: 277px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 166.667% */
+  letter-spacing: -0.115px;
+  }
+
+  /* right contact */
+  .right-contact {
+    width: 100%;
+    text-align: center;
+  }
+
+  .right-title-contact {
+    width: 100%;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 32px;
+  }
+
+  /* logos */
+  .logos-contact {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    /* justify-items: center; */
+    overflow: hidden;
+  }
+
+  .logos-contact img {
+    max-width: 120px;
+  }
+
+  .cta__inner {
+    justify-content: center;
+  }
+}
