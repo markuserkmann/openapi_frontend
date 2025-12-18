@@ -2236,7 +2236,7 @@ margin-right: 31px;
   text-decoration: none;
   color: var(--clr-light-san-juan);
   margin-left: 34px;
-  
+  filter: brightness(100);
 }
 
 .footer-social img {
@@ -2288,6 +2288,7 @@ margin-right: 31px;
     margin: 0;
     font-size: 15px;
     margin-bottom: 10px;
+    filter: brightness(100);
   }
 
   .footer-social {
