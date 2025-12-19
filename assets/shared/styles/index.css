@@ -2403,100 +2403,96 @@ margin-right: 31px;
 }
 
 @media (max-width: 375px) {
-  .pricing-page {
-    margin: 0;
-  }
+ 
+  .pricing-page { margin: 0; }
+ 
   .pricing-page .container {
-    width: 375px, 100% 48px;
+    width: min(327px, 100% - 48px);
     margin-inline: auto;
   }
+ 
   .pricing-section {
-    padding-top: 48px;
+    padding-top: 30px;
     text-align: center;
   }
+ 
   .pricing-section__title {
-    text-align: center;
     font-size: 32px;
     line-height: 36px;
     margin: 0 0 40px;
-    
   }
+ 
   .pricing-section__grid {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 48px;
   }
-  .plan-card1 {
+  
+  .plan-card1{
     width: 100%;
     max-width: 327px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     text-align: center;
-    margin: 0;
-
+    margin-top: 0;         
   }
   .plan-card2 {
     width: 100%;
     max-width: 327px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     text-align: center;
-    
+    margin-left: 2px;
+    margin-top: -5px;
   }
   .plan-card3 {
     width: 100%;
     max-width: 327px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     text-align: center;
-    margin-top: 10px;
+    margin-bottom: 64px;     
+    margin-top: -3px;    
   }
-  .plan-card__desc {
-    min-width: 112px;
-    margin-bottom: 16px;
-  }
+ 
   .plan-card__name {
     font-size: 24px;
-    line-height: 24px;
+    line-height: 32px;
+    margin-top: 10px;
   }
+ 
+  .plan-card__desc {
+    max-width: 380px;
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: -10px;
+  }
+ 
   .plan-card__price {
-    font-size: 58px;
-    line-height: 60px;
+    font-size: 56px;
+    line-height: 72px;
+    margin-top: 9px;
   }
+ 
   .plan-card__features {
+    width: 100%;
+    max-width: 190px;
+  margin-top: -25px;
+  margin-left: 60px;
+    padding: 0;
     display: flex;
-    flex: 1;
+    flex-direction: column;
     align-items: flex-start;
-    opacity: 1;
-    padding-left: 96px;
-    
+    gap: 12px;
   }
+ 
   .plan-card__btn {
-    margin-top: -4px;
+    margin-top: -15px;
     align-self: center;
   }
-  .cta .container {
-    margin-inline: top;
-  }
-  .cta__inner {
-    justify-content: center;
-  }
-  .cta-form {
-    margin-inline: auto;
-    display: flex;
-    justify-content: center;
-  }
-  .cta {
-    padding-bottom: 30px;
-    margin-top: 170px;
-  }
-  .cta__title {
-    font-size: 32px;
-    line-height: 56px;
-    letter-spacing: -0.37px;
-    font-weight: 400;
-    text-align: center;
-    margin: auto;
-  }
+ 
 }
