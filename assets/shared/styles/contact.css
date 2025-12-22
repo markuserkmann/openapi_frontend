@@ -274,14 +274,61 @@ textarea {
   color: #36536b;
   font-family: var(--ff-heading);
   font-size: 48px;
-  font-style: normal;
-  font-weight: 800;
   line-height: 56px;
   letter-spacing: -0.369px;
-  width: 573px;
-  text-align: left;
-  margin-left: -20px
+  width: 480px;
+  text-align: center;
+  margin-left: -20px;
+  margin-top: 80px;
 }
+
+.control {
+  margin-top: -17px;
+}
+
+.check {
+  width: 400px;
+  padding: 0;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.checkbox-wrapper-21 .control__indicator-contact {
+  margin-top: 13px;
+}
+
+.checkbox-wrapper-21 .control {
+  margin-bottom: 26px;
+}
+
+#name {
+  margin-top: 87px;
+}
+
+#email {
+  margin-top: -2px;
+}
+
+#company {
+  margin-top: -2px;
+}
+
+#title {
+  margin-top: -2px;
+}
+
+#message {
+  margin-top: -6px;
+}
+
+input::placeholder {
+  padding-left: 18px;
+}
+
+textarea::placeholder {
+  padding-left: 18px;
+}
+
 .right-contact {
   display: flex;
   flex-direction: column;
@@ -292,7 +339,7 @@ textarea {
 
 .right-title-contact {
   color: #36536b;
-  width: 445px;
+  width: 415px;
   font-family: var(--ff-heading);
   font-size: 24px;
   font-style: normal;
@@ -308,14 +355,27 @@ textarea {
 .logos-contact {
   display: grid;
   grid-template-columns: repeat(3, minmax(150px, 1fr));
-  align-items: center;
-  margin-top: 15px;
-  gap: 62px;
-  row-gap: 42px;
-  
+  text-align: center;
+  margin-top: 30px;
+  gap: 50px;
+  row-gap: 37px;
 }
+
+.logos-contact {
+  margin-left: -5px;
+}
+.logo-contact-left {
+text-align: right;
+}
+.logo-contact-right {
+text-align: left;
+margin-left: -4px;
+}
+
 .submit-contact {
   margin-right: 100%;
+  margin-left: 3px;
+  margin-bottom: 8px;
 }
 }
 
