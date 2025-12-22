@@ -2660,13 +2660,36 @@ body {
   /* logos */
   .logos-contact {
     grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
+    gap: 30px;
     /* justify-items: center; */
     overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 37px;
   }
 
   .logos-contact img {
     max-width: 120px;
+  }
+
+  #google {
+    text-align: center;
+  }
+
+  #tesla {
+    text-align: center;
+  }
+
+  #hawlet {
+    text-align: center;
+  }
+
+  #oracle {
+    text-align: center;
+  }
+
+  #nvidia {
+    display: flex;
+    align-content: flex-end;
   }
 
   .cta__inner {
